@@ -1,0 +1,4963 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "undefined" ],
+    "baseIris" : [ "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/city-kgs/restaurants" ],
+    "iri" : "https://w3id.org/city-kgs/restaurants",
+    "version" : "Version 02/03/2024",
+    "author" : [ "Ernesto Jimenez Ruiz" ],
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Ernesto Jimenez Ruiz",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "Version 02/03/2024",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "132",
+    "type" : "owl:Class"
+  }, {
+    "id" : "146",
+    "type" : "owl:Class"
+  }, {
+    "id" : "148",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "152",
+    "type" : "owl:Class"
+  }, {
+    "id" : "154",
+    "type" : "owl:Class"
+  }, {
+    "id" : "91",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "171",
+    "type" : "owl:Class"
+  }, {
+    "id" : "163",
+    "type" : "owl:Class"
+  }, {
+    "id" : "180",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "189",
+    "type" : "owl:Class"
+  }, {
+    "id" : "191",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "193",
+    "type" : "owl:Class"
+  }, {
+    "id" : "134",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "247",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "169",
+    "type" : "owl:Class"
+  }, {
+    "id" : "249",
+    "type" : "owl:Class"
+  }, {
+    "id" : "257",
+    "type" : "owl:Class"
+  }, {
+    "id" : "159",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "168",
+    "type" : "owl:Class"
+  }, {
+    "id" : "224",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "94",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "99",
+    "type" : "owl:Class"
+  }, {
+    "id" : "277",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "289",
+    "type" : "owl:Class"
+  }, {
+    "id" : "144",
+    "type" : "owl:Class"
+  }, {
+    "id" : "290",
+    "type" : "owl:Class"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "145",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "233",
+    "type" : "owl:Class"
+  }, {
+    "id" : "186",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "172",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "327",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "113",
+    "type" : "owl:Class"
+  }, {
+    "id" : "240",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "346",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "347",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "344",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "348",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "350",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "351",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "220",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "353",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "318",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "302",
+    "type" : "owl:Class"
+  }, {
+    "id" : "213",
+    "type" : "owl:Class"
+  }, {
+    "id" : "363",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "195",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "235",
+    "type" : "owl:Class"
+  }, {
+    "id" : "256",
+    "type" : "owl:Class"
+  }, {
+    "id" : "222",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "266",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "41",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "329",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
+    "id" : "231",
+    "type" : "owl:Class"
+  }, {
+    "id" : "260",
+    "type" : "owl:Class"
+  }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "109",
+    "type" : "owl:Class"
+  }, {
+    "id" : "129",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "316",
+    "type" : "owl:Class"
+  }, {
+    "id" : "165",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "321",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "215",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "226",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "204",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "149",
+    "type" : "owl:Class"
+  }, {
+    "id" : "143",
+    "type" : "owl:Class"
+  }, {
+    "id" : "251",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "212",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "319",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "238",
+    "type" : "owl:Class"
+  }, {
+    "id" : "242",
+    "type" : "owl:Class"
+  }, {
+    "id" : "124",
+    "type" : "owl:Class"
+  }, {
+    "id" : "188",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:equivalentClass"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "192",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "164",
+    "type" : "owl:Class"
+  }, {
+    "id" : "151",
+    "type" : "owl:Class"
+  }, {
+    "id" : "147",
+    "type" : "owl:Class"
+  }, {
+    "id" : "291",
+    "type" : "owl:Class"
+  }, {
+    "id" : "322",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "167",
+    "type" : "owl:Class"
+  }, {
+    "id" : "170",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "150",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "owl:intersectionOf"
+  }, {
+    "id" : "200",
+    "type" : "owl:Class"
+  }, {
+    "id" : "253",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "255",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "245",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "202",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "14",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/city-kgs/restaurants/DietaryRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DietaryRestaurant",
+      "undefined" : "Dietary restaurant"
+    },
+    "subClasses" : [ "16", "17", "18" ],
+    "attributes" : [ "external" ],
+    "id" : "15",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Beef",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beef",
+      "undefined" : "Beef"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/beef",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "beef"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Basil",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Basil",
+      "undefined" : "Basil"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BarbecuePizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "BBQ pizza",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BarbecuePizza",
+      "undefined" : "Barbecue pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "62",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Mozzarella",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mozzarella",
+      "undefined" : "Mozzarella"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/mozzarella",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "mozzarella"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "90",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "92",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/WinterSquash",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WinterSquash",
+      "undefined" : "Winter squash"
+    },
+    "subClasses" : [ "118", "119" ],
+    "attributes" : [ "external" ],
+    "id" : "116",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pepper",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pepper",
+      "undefined" : "Pepper"
+    },
+    "subClasses" : [ "142", "143", "144", "145" ],
+    "attributes" : [ "external" ],
+    "id" : "132",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/OliveOil",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OliveOil",
+      "undefined" : "Olive oil"
+    },
+    "attributes" : [ "external" ],
+    "id" : "146",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Food",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Food",
+      "undefined" : "Food"
+    },
+    "subClasses" : [ "149", "150" ],
+    "attributes" : [ "external" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/JapaneseRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapaneseRestaurant",
+      "undefined" : "Japanese restaurant"
+    },
+    "subClasses" : [ "151" ],
+    "attributes" : [ "external" ],
+    "id" : "26",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/GreenOlives",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GreenOlives",
+      "undefined" : "Green olives"
+    },
+    "attributes" : [ "external" ],
+    "id" : "152",
+    "superClasses" : [ "153" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/State",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "State",
+      "undefined" : "State"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/WV",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "WV"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "154",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Cheese",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cheese"
+    },
+    "subClasses" : [ "165", "166", "167", "168", "169", "170", "157", "159", "90" ],
+    "attributes" : [ "external" ],
+    "id" : "91",
+    "superClasses" : [ "164" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/ChickenPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ChickenPizza",
+      "undefined" : "Chicken pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "89",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/HawaiianPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HawaiianPizza",
+      "undefined" : "Hawaiian pizza"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "171",
+    "superClasses" : [ "172", "163" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/AmericanPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AmericanPizza",
+      "undefined" : "American pizza"
+    },
+    "subClasses" : [ "162", "171", "174" ],
+    "attributes" : [ "external" ],
+    "id" : "163",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Club",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Club",
+      "undefined" : "Club"
+    },
+    "attributes" : [ "external" ],
+    "id" : "180",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SweetPotato",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SweetPotato",
+      "undefined" : "Sweet potato"
+    },
+    "attributes" : [ "external" ],
+    "id" : "73",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Gastropub",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gastropub",
+      "undefined" : "Gastro pub"
+    },
+    "attributes" : [ "external" ],
+    "id" : "189",
+    "superClasses" : [ "190" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/VegetarianPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VegetarianPizza",
+      "undefined" : "Vegetarian pizza"
+    },
+    "subClasses" : [ "192" ],
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "191",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Tofu",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tofu",
+      "undefined" : "Tofu"
+    },
+    "attributes" : [ "external" ],
+    "id" : "193",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Zucchini",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Zucchini",
+      "undefined" : "Zucchini"
+    },
+    "attributes" : [ "external" ],
+    "id" : "134",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pizza",
+      "undefined" : "Pizza"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton"
+      }
+    }, {
+      "iri" : "https://w3id.org/city-kgs/restaurants/mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton"
+      }
+    } ],
+    "subClasses" : [ "172", "58", "173" ],
+    "attributes" : [ "external" ],
+    "id" : "87",
+    "superClasses" : [ "149" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/MexicanPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanPizza",
+      "undefined" : "Mexican pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "162",
+    "superClasses" : [ "163" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/MeatPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Meaty pizza",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MeatPizza",
+      "undefined" : "Meat pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "247",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Olives",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Olives",
+      "undefined" : "Olives"
+    },
+    "subClasses" : [ "152", "255" ],
+    "attributes" : [ "external" ],
+    "id" : "153",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BlueCheese",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BlueCheese",
+      "undefined" : "Blue cheese"
+    },
+    "attributes" : [ "external" ],
+    "id" : "169",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Sausage",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sausage",
+      "undefined" : "Sausage"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/sausage",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "sausage"
+      }
+    } ],
+    "subClasses" : [ "256" ],
+    "attributes" : [ "external" ],
+    "id" : "249",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BeerPlace",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Beer tavern",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BeerPlace",
+      "undefined" : "Beer place"
+    },
+    "attributes" : [ "external" ],
+    "id" : "257",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Parmesan",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Parmesan",
+      "undefined" : "Parmesan"
+    },
+    "attributes" : [ "external" ],
+    "id" : "159",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Onion",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Onion",
+      "undefined" : "Onion"
+    },
+    "attributes" : [ "external" ],
+    "id" : "121",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/GoatCheese",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GoatCheese",
+      "undefined" : "Goat cheese"
+    },
+    "attributes" : [ "external" ],
+    "id" : "168",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaBianca",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "White pizza",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "PizzaBianca",
+      "undefined" : "Pizza bianca"
+    },
+    "intersection" : [ "87" ],
+    "comment" : {
+      "undefined" : "Pizza without tomato sauce"
+    },
+    "attributes" : [ "external", "intersection" ],
+    "id" : "224",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/FetaPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FetaPizza",
+      "undefined" : "Feta pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "94",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/CrabMeat",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CrabMeat",
+      "undefined" : "Crab meat"
+    },
+    "attributes" : [ "external" ],
+    "id" : "99",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "277",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "283",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/City",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "City",
+      "undefined" : "City"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/Weirton",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "Weirton"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "141",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaSupreme",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaSupreme",
+      "undefined" : "Pizza supreme"
+    },
+    "attributes" : [ "external" ],
+    "id" : "289",
+    "superClasses" : [ "172" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/JalapenoPepper",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JalapenoPepper",
+      "undefined" : "Jalapeno pepper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "144",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Beans",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Beans",
+      "undefined" : "Beans"
+    },
+    "attributes" : [ "external" ],
+    "id" : "290",
+    "superClasses" : [ "291" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Salmon",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Salmon",
+      "undefined" : "Salmon"
+    },
+    "attributes" : [ "external" ],
+    "id" : "105",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/GourmetRestaurants",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GourmetRestaurants",
+      "undefined" : "Gourmet restaurants"
+    },
+    "attributes" : [ "external" ],
+    "id" : "82",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BarsPubsClubs",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BarsPubsClubs",
+      "undefined" : "Bars, pubs and clubs"
+    },
+    "subClasses" : [ "190", "10", "257", "180" ],
+    "attributes" : [ "external" ],
+    "id" : "86",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/YellowPepper",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "YellowPepper",
+      "undefined" : "Yellow pepper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "145",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaPlace",
+    "equivalent" : [ "29" ],
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaPlace"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/sicilias_pizzeria_weirton",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "sicilias_pizzeria_weirton"
+      }
+    } ],
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "7",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaRomana",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaRomana",
+      "undefined" : "Pizza Romana"
+    },
+    "attributes" : [ "external" ],
+    "id" : "233",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Address",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Address",
+      "undefined" : "Address"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/address_3601_Main_St_Weirton",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "address_3601_Main_St_Weirton"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "186",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/AmericanRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AmericanRestaurant",
+      "undefined" : "American restaurant"
+    },
+    "subClasses" : [ "302" ],
+    "attributes" : [ "external" ],
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Scallops",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Scallops",
+      "undefined" : "Scallop"
+    },
+    "attributes" : [ "external" ],
+    "id" : "107",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/NamedPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NamedPizza"
+    },
+    "subClasses" : [ "213", "289", "171", "318", "319" ],
+    "attributes" : [ "external" ],
+    "id" : "172",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Vegetable",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Vegetable",
+      "undefined" : "Vegetable"
+    },
+    "subClasses" : [ "153", "321", "113", "74", "291", "322", "46", "124", "5", "127", "129", "116", "132", "134", "136", "138", "121" ],
+    "comment" : {
+      "undefined" : "For simplicity, this ontology relies on the original meaning to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds."
+    },
+    "attributes" : [ "external" ],
+    "id" : "117",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Gorgonzola",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gorgonzola",
+      "undefined" : "Gorgonzola"
+    },
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BeansPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BeansPizza",
+      "undefined" : "Beans pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "57",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SeaFood",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeaFood",
+      "undefined" : "Seafood"
+    },
+    "subClasses" : [ "96", "99", "101", "103", "105", "107" ],
+    "attributes" : [ "external" ],
+    "id" : "97",
+    "superClasses" : [ "150" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "327",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Tomato",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tomato",
+      "undefined" : "Tomato"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/tomato",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "tomato"
+      }
+    } ],
+    "subClasses" : [ "112", "115" ],
+    "attributes" : [ "external" ],
+    "id" : "113",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/FruitPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FruitPizza",
+      "undefined" : "Fruit pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "240",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "346",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Anchovies",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Anchovies"
+    },
+    "attributes" : [ "external" ],
+    "id" : "96",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "347",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "344",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "348",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "350",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#double",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "351",
+    "label" : {
+      "IRI-based" : "double"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BurgerPlace",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BurgerPlace",
+      "undefined" : "Burger place"
+    },
+    "attributes" : [ "external" ],
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Herbs",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Herbs",
+      "undefined" : "Herbs"
+    },
+    "subClasses" : [ "84", "45", "50" ],
+    "attributes" : [ "external" ],
+    "id" : "46",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/GreekPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GreekPizza",
+      "undefined" : "Greek pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "220",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "353",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaMarinara",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaMarinara",
+      "undefined" : "Pizza marinara"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "318",
+    "superClasses" : [ "172" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SpanishRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SpanishRestaurant",
+      "undefined" : "Spanish restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "64",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/MexicanRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MexicanRestaurant",
+      "undefined" : "Mexican restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "302",
+    "superClasses" : [ "20" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/MargheritaPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MargheritaPizza",
+      "undefined" : "Margherita pizza"
+    },
+    "subClasses" : [ "212" ],
+    "attributes" : [ "external" ],
+    "id" : "213",
+    "superClasses" : [ "172" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "363",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MediterraneanRestaurant",
+      "undefined" : "Mediterranean restaurant"
+    },
+    "subClasses" : [ "55", "60", "64", "68" ],
+    "attributes" : [ "external" ],
+    "id" : "48",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Restaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Restaurant",
+      "undefined" : "Restaurant"
+    },
+    "subClasses" : [ "82", "86", "48", "15", "1", "7", "12", "20", "24", "29", "33", "37", "27" ],
+    "attributes" : [ "external" ],
+    "id" : "2",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BarbecueSauce",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "BBQ sauce",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "BarbecueSauce",
+      "undefined" : "Barbecue sause"
+    },
+    "attributes" : [ "external" ],
+    "id" : "195",
+    "superClasses" : [ "196", "147" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Garlic",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Garlic",
+      "undefined" : "Garlic"
+    },
+    "attributes" : [ "external" ],
+    "id" : "127",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaByStyle",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaByStyle"
+    },
+    "subClasses" : [ "247", "251", "220", "224", "163", "110", "233", "191", "240", "215" ],
+    "comment" : {
+      "undefined" : "Organizes pizzas by their style"
+    },
+    "attributes" : [ "external" ],
+    "id" : "173",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/VeganRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VeganRestaurant",
+      "undefined" : "Vegan restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "17",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Meatballs",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Meatballs",
+      "undefined" : "Meatballs"
+    },
+    "attributes" : [ "external" ],
+    "id" : "235",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pepperoni",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Pepperoni sausage",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Pepperoni",
+      "undefined" : "Pepperoni"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/pepperoni",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "pepperoni"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "256",
+    "superClasses" : [ "249" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Salami",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Salami",
+      "undefined" : "Salami"
+    },
+    "attributes" : [ "external" ],
+    "id" : "222",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/GreekRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GreekRestaurant",
+      "undefined" : "Greek restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "68",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pineapple",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pineapple",
+      "undefined" : "Pineapple"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/pineapple",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "pineapple"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "53",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/ChineseRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ChineseRestaurant",
+      "undefined" : "Chinese restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "31",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "266",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "41",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Currency",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Currency",
+      "undefined" : "Currency"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/EUR",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "EUR"
+      }
+    }, {
+      "iri" : "https://w3id.org/city-kgs/restaurants/USD",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "USD"
+      }
+    }, {
+      "iri" : "https://w3id.org/city-kgs/restaurants/GBP",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "GBP"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "329"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "140",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/FrenchRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FrenchRestaurant",
+      "undefined" : "French restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "55",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Provolone",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Provolone",
+      "undefined" : "Provolone"
+    },
+    "attributes" : [ "external" ],
+    "id" : "166",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Ham",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ham",
+      "undefined" : "Ham"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/ham",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "ham"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "231",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/VeganCheese",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Dairy-free cheese",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "VeganCheese",
+      "undefined" : "Vegan cheese"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/DaiyaCheese",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "comment" : {
+        "undefined" : "Daiya is a brand of dairy-free products"
+      },
+      "labels" : {
+        "IRI-based" : "DaiyaCheese",
+        "undefined" : "Daiya cheese"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "260",
+    "superClasses" : [ "147" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SportsBar",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SportsBar",
+      "undefined" : "Sports bar"
+    },
+    "attributes" : [ "external" ],
+    "id" : "22",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Carrot",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Carrot",
+      "undefined" : "Carrot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaNutella",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaNutella",
+      "undefined" : "Pizza Nutella"
+    },
+    "attributes" : [ "external" ],
+    "id" : "109",
+    "superClasses" : [ "110" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Mushroom",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mushroom",
+      "undefined" : "Mushroom"
+    },
+    "attributes" : [ "external" ],
+    "id" : "129",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Shrimp",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shrimp",
+      "undefined" : "Shrimp"
+    },
+    "attributes" : [ "external" ],
+    "id" : "101",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Sauce",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sauce",
+      "undefined" : "Sauce"
+    },
+    "subClasses" : [ "195", "198", "200", "202" ],
+    "attributes" : [ "external" ],
+    "id" : "196",
+    "superClasses" : [ "150" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/TomatoSauce",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TomatoSauce",
+      "undefined" : "Tomato sauce"
+    },
+    "subClasses" : [ "204" ],
+    "attributes" : [ "external" ],
+    "id" : "198",
+    "superClasses" : [ "196", "147" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Location",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Location",
+      "undefined" : "Location"
+    },
+    "subClasses" : [ "154", "141", "2", "186", "188" ],
+    "attributes" : [ "external" ],
+    "id" : "155"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/ItemValue",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItemValue",
+      "undefined" : "Item value"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/7.99USD",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "7.99USD"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "316"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Cheddar",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cheddar",
+      "undefined" : "Cheddar"
+    },
+    "attributes" : [ "external" ],
+    "id" : "165",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/CoffeeShop",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Cafeteria",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "CoffeeShop",
+      "undefined" : "Coffee shop"
+    },
+    "attributes" : [ "external" ],
+    "id" : "37",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Broccoli",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Broccoli",
+      "undefined" : "Broccoli"
+    },
+    "attributes" : [ "external" ],
+    "id" : "321",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/VegetarianRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VegetarianRestaurant",
+      "undefined" : "Vegetarian restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "18",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/JapanesePizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "JapanesePizza",
+      "undefined" : "Japanese pizza"
+    },
+    "attributes" : [ "external" ],
+    "id" : "215",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pub",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pub",
+      "undefined" : "Pub"
+    },
+    "subClasses" : [ "189" ],
+    "attributes" : [ "external" ],
+    "id" : "190",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PineapplePizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PineapplePizza",
+      "undefined" : "Pineapple pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "70",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Chicken",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chicken",
+      "undefined" : "Chicken"
+    },
+    "attributes" : [ "external" ],
+    "id" : "226",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/ItalianRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ItalianRestaurant",
+      "undefined" : "Italian restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "60",
+    "superClasses" : [ "48" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Oregano",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Oregano",
+      "undefined" : "Oregano"
+    },
+    "attributes" : [ "external" ],
+    "id" : "84",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Marinara",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Marinara",
+      "undefined" : "Marinara"
+    },
+    "attributes" : [ "external" ],
+    "id" : "204",
+    "superClasses" : [ "198" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/CalifornianPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CalifornianPizza",
+      "undefined" : "Californian pizza"
+    },
+    "attributes" : [ "external" ],
+    "id" : "174",
+    "superClasses" : [ "163" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/MenuItem",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MenuItem",
+      "undefined" : "Menu item"
+    },
+    "subClasses" : [ "87" ],
+    "attributes" : [ "external" ],
+    "id" : "149",
+    "superClasses" : [ "148" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/GreenPepper",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GreenPepper",
+      "undefined" : "Green pepper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "143",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SeafoodPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeafoodPizza",
+      "undefined" : "Seafood pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "251",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaNapolitana",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaNapolitana",
+      "undefined" : "Pizza Napolitana"
+    },
+    "intersection" : [ "213" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "212",
+    "superClasses" : [ "213" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Potato",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Potato",
+      "undefined" : "Potato"
+    },
+    "attributes" : [ "external" ],
+    "id" : "77",
+    "superClasses" : [ "74" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pumpkin",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pumpkin",
+      "undefined" : "Pumpkin"
+    },
+    "attributes" : [ "external" ],
+    "id" : "119",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaErnesto",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaErnesto"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "319",
+    "superClasses" : [ "172" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Mortadella",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Mortadella",
+      "undefined" : "Mortadella"
+    },
+    "attributes" : [ "external" ],
+    "id" : "238",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Chorizo",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Chorizo",
+      "undefined" : "Chorizo"
+    },
+    "attributes" : [ "external" ],
+    "id" : "242",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Spinach",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Spinach",
+      "undefined" : "Spinach"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/spinach",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "spinach"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "124",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Country",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "undefined" : "Country"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/US",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "US"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "188",
+    "superClasses" : [ "155" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pizzeria",
+    "equivalent" : [ "7" ],
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Pizza place",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Pizzeria",
+      "undefined" : "Pizzeria"
+    },
+    "attributes" : [ "external", "equivalent" ],
+    "id" : "29",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BarAndGrill",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BarAndGrill",
+      "undefined" : "Bar and Grill"
+    },
+    "attributes" : [ "external" ],
+    "id" : "33",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/VeganPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VeganPizza",
+      "undefined" : "Vegan pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "192",
+    "superClasses" : [ "191" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/VegetarianIngredient",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VegetarianIngredient"
+    },
+    "subClasses" : [ "91", "147" ],
+    "attributes" : [ "external" ],
+    "id" : "164",
+    "superClasses" : [ "150" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SushiRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SushiRestaurant",
+      "undefined" : "Sushi restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "151",
+    "superClasses" : [ "26" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/VeganIngredient",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VeganIngredient",
+      "undefined" : "Vegan ingredient"
+    },
+    "subClasses" : [ "195", "260", "198", "146", "117", "193" ],
+    "attributes" : [ "external" ],
+    "id" : "147",
+    "superClasses" : [ "164" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Seeds",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seeds",
+      "undefined" : "Seeds"
+    },
+    "subClasses" : [ "290" ],
+    "attributes" : [ "external" ],
+    "id" : "291",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Artichokes",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Artichokes",
+      "undefined" : "Artichoke"
+    },
+    "attributes" : [ "external" ],
+    "id" : "322",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/CocktailBars",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CocktailBars",
+      "undefined" : "Cocktail bars"
+    },
+    "attributes" : [ "external" ],
+    "id" : "9",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Ricotta",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ricotta",
+      "undefined" : "Ricotta"
+    },
+    "attributes" : [ "external" ],
+    "id" : "167",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Feta",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Feta",
+      "undefined" : "Feta"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/feta",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "feta"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "170",
+    "superClasses" : [ "91" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Rosemary",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Rosemary",
+      "undefined" : "Rosemary"
+    },
+    "attributes" : [ "external" ],
+    "id" : "45",
+    "superClasses" : [ "46" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Ingredient",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Ingredient",
+      "undefined" : "Ingredient"
+    },
+    "subClasses" : [ "196", "164", "39", "97" ],
+    "attributes" : [ "external" ],
+    "id" : "150",
+    "superClasses" : [ "148" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/MushroomPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Funghi pizza",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "MushroomPizza",
+      "undefined" : "Mushroom pizza"
+    },
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "66",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Pesto",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pesto",
+      "undefined" : "Pesto"
+    },
+    "attributes" : [ "external" ],
+    "id" : "200",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Bacon",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Pancetta",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Bacon",
+      "undefined" : "Bacon"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/city-kgs/restaurants/bacon",
+      "baseIri" : "https://w3id.org/city-kgs/restaurants",
+      "labels" : {
+        "IRI-based" : "bacon"
+      }
+    } ],
+    "attributes" : [ "external" ],
+    "id" : "253",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SeafoodRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeafoodRestaurant",
+      "undefined" : "Seafood restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "12",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/ButternutSquash",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ButternutSquash",
+      "undefined" : "ButternutSquash"
+    },
+    "attributes" : [ "external" ],
+    "id" : "118",
+    "superClasses" : [ "116" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/SweetPizza",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SweetPizza",
+      "undefined" : "Sweet pizza"
+    },
+    "subClasses" : [ "109" ],
+    "attributes" : [ "external" ],
+    "id" : "110",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/CherryTomato",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CherryTomato",
+      "undefined" : "Cherry tomato"
+    },
+    "attributes" : [ "external" ],
+    "id" : "112",
+    "superClasses" : [ "113" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaByIngredient",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PizzaByIngredient"
+    },
+    "subClasses" : [ "89", "94", "57", "62", "66", "70" ],
+    "comment" : {
+      "undefined" : "Organized pizzas by ingredient"
+    },
+    "attributes" : [ "external" ],
+    "id" : "58",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/BlackOlives",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BlackOlives",
+      "undefined" : "Black olives"
+    },
+    "attributes" : [ "external" ],
+    "id" : "255",
+    "superClasses" : [ "153" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Capers",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Capers",
+      "undefined" : "Capers"
+    },
+    "attributes" : [ "external" ],
+    "id" : "138",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/IndianRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "IndianRestaurant",
+      "undefined" : "Indian restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "35",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Tuna",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Tuna",
+      "undefined" : "Tuna"
+    },
+    "attributes" : [ "external" ],
+    "id" : "103",
+    "superClasses" : [ "97" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/RootVegetable",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RootVegetable",
+      "undefined" : "Root vegetable"
+    },
+    "subClasses" : [ "73", "77", "80" ],
+    "attributes" : [ "external" ],
+    "id" : "74",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/PlumTomato",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PlumTomato",
+      "undefined" : "Plum tomato"
+    },
+    "attributes" : [ "external" ],
+    "id" : "115",
+    "superClasses" : [ "113" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Fruit",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fruit",
+      "undefined" : "Fruit"
+    },
+    "subClasses" : [ "53", "4" ],
+    "comment" : {
+      "undefined" : "For simplicity, this ontology relies on the common language usage of \"fruit\" (i.e., sweet fruit)."
+    },
+    "attributes" : [ "external" ],
+    "id" : "5",
+    "superClasses" : [ "117" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Fig",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Fig",
+      "undefined" : "Fig"
+    },
+    "attributes" : [ "external" ],
+    "id" : "4",
+    "superClasses" : [ "5" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/RedPepper",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RedPepper",
+      "undefined" : "Red pepper"
+    },
+    "attributes" : [ "external" ],
+    "id" : "142",
+    "superClasses" : [ "132" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Bakery",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bakery",
+      "undefined" : "Bakery"
+    },
+    "attributes" : [ "external" ],
+    "id" : "24",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Prosciutto",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Prosciutto",
+      "undefined" : "Prosciutto"
+    },
+    "attributes" : [ "external" ],
+    "id" : "245",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/GlutenFreeRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GlutenFreeRestaurant",
+      "undefined" : "Gluten-free restaurant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "16",
+    "superClasses" : [ "15" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Bar",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bar",
+      "undefined" : "Bar"
+    },
+    "subClasses" : [ "9", "14", "22" ],
+    "attributes" : [ "external" ],
+    "id" : "10",
+    "superClasses" : [ "86" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/AsianRestaurant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "AsianRestaurant",
+      "undefined" : "Asian restaurant"
+    },
+    "subClasses" : [ "26", "31", "35" ],
+    "attributes" : [ "external" ],
+    "id" : "27",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/HotSauce",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "HotSauce",
+      "undefined" : "Hot sauce"
+    },
+    "attributes" : [ "external" ],
+    "id" : "202",
+    "superClasses" : [ "196" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Meat",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Meat",
+      "undefined" : "Meat"
+    },
+    "subClasses" : [ "242", "245", "249", "253", "222", "226", "38", "231", "235", "238" ],
+    "attributes" : [ "external" ],
+    "id" : "39",
+    "superClasses" : [ "150" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/KaraokeBar",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "KaraokeBar",
+      "undefined" : "Karaoke bar"
+    },
+    "attributes" : [ "external" ],
+    "id" : "14",
+    "superClasses" : [ "10" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Eggplant",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "annotations" : {
+      "altLabel" : [ {
+        "identifier" : "altLabel",
+        "language" : "undefined",
+        "value" : "Aubergine",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Eggplant",
+      "undefined" : "Eggplant"
+    },
+    "attributes" : [ "external" ],
+    "id" : "136",
+    "superClasses" : [ "117" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "6",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "8",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "21",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "40",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "49",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "51",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "75",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "100",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "125",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "130",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "137",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "139",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "156",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "175",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "176",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "177",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "187",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "194",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "199",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "201",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "203",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "207",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "210",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "221",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "227",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "228",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "229",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "244",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "246",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "248",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "250",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "252",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "254",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "258",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "259",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "261",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "262",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "263",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "264",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "265",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "267",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "268",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "269",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "270",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "271",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "274",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "275",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "276",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "278",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "279",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "280",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "281",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "284",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "285",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "286",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "287",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "288",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "292",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "293",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "294",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "295",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "296",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "297",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "298",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "299",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "300",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "301",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "303",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "304",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "305",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "306",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "307",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "308",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "309",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "310",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "311",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "312",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "313",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "315",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "317",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "320",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "323",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "324",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "326",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "328",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "330",
+    "type" : "owl:allValuesFrom"
+  }, {
+    "id" : "334",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "335",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "336",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "337",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "338",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "339",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "340",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "341",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "342",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "343",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "333",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "345",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "349",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "352",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "354",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "355",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "356",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "357",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "358",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "359",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "360",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "361",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "362",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "364",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "365",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "366",
+    "type" : "owl:someValuesFrom"
+  }, {
+    "id" : "325",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "367",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "314",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "368",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "369",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "370",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "371",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "372",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "373",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "374",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "375",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "376",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "377",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "378",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "379",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "380",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "331",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "332",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "381",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "382",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "383",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "384",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "385",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "386",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "387",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "388",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "389",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "390",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "391",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "392",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "393",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "394",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "395",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "396",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "397",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "282",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "398",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "399",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "400",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "401",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "402",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "403",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "404",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "405",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "406",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "407",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "408",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "409",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "410",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "411",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "412",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "413",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "414",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "415",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "416",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "417",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "418",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "419",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "420",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "421",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "422",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "423",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "5",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "3"
+  }, {
+    "range" : "2",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "6"
+  }, {
+    "range" : "10",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "8"
+  }, {
+    "range" : "2",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "range" : "10",
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "10",
+    "domain" : "22",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "21"
+  }, {
+    "range" : "2",
+    "domain" : "24",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "23"
+  }, {
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "2",
+    "domain" : "29",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "27",
+    "domain" : "31",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "30"
+  }, {
+    "range" : "2",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "27",
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "34"
+  }, {
+    "range" : "2",
+    "domain" : "37",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "topObjectProperty"
+    },
+    "domain" : "41",
+    "subproperty" : [ "42", "43" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "40"
+  }, {
+    "range" : "46",
+    "domain" : "45",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "44"
+  }, {
+    "range" : "2",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "46",
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "2",
+    "domain" : "15",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "5",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "48",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "54"
+  }, {
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "56"
+  }, {
+    "range" : "48",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "range" : "58",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "61"
+  }, {
+    "range" : "48",
+    "domain" : "64",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "63"
+  }, {
+    "range" : "58",
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "range" : "48",
+    "domain" : "68",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "67"
+  }, {
+    "range" : "58",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "15",
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "74",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "15",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "75"
+  }, {
+    "range" : "74",
+    "domain" : "77",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "15",
+    "domain" : "18",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "78"
+  }, {
+    "range" : "74",
+    "domain" : "80",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "2",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "81"
+  }, {
+    "range" : "46",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "2",
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "range" : "58",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "88"
+  }, {
+    "range" : "58",
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "93"
+  }, {
+    "range" : "97",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "range" : "97",
+    "domain" : "99",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "98"
+  }, {
+    "range" : "97",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "100"
+  }, {
+    "range" : "97",
+    "domain" : "103",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "102"
+  }, {
+    "range" : "97",
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "104"
+  }, {
+    "range" : "97",
+    "domain" : "107",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
+  }, {
+    "range" : "110",
+    "domain" : "109",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "108"
+  }, {
+    "range" : "113",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "113",
+    "domain" : "115",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "114"
+  }, {
+    "range" : "117",
+    "domain" : "121",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "120"
+  }, {
+    "range" : "117",
+    "domain" : "46",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "122"
+  }, {
+    "range" : "117",
+    "domain" : "124",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "123"
+  }, {
+    "range" : "117",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "125"
+  }, {
+    "range" : "117",
+    "domain" : "127",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
+  }, {
+    "range" : "117",
+    "domain" : "129",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "128"
+  }, {
+    "range" : "117",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "130"
+  }, {
+    "range" : "117",
+    "domain" : "132",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "117",
+    "domain" : "134",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "117",
+    "domain" : "136",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "117",
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/containsCity",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "containsCity"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "140",
+    "attributes" : [ "external", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "91",
+    "domain" : "157",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "156"
+  }, {
+    "range" : "91",
+    "domain" : "159",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "158"
+  }, {
+    "range" : "91",
+    "domain" : "90",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "160"
+  }, {
+    "range" : "163",
+    "domain" : "162",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "161"
+  }, {
+    "range" : "91",
+    "domain" : "165",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "175"
+  }, {
+    "range" : "91",
+    "domain" : "166",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
+  }, {
+    "range" : "91",
+    "domain" : "167",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "177"
+  }, {
+    "range" : "91",
+    "domain" : "168",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
+  }, {
+    "range" : "91",
+    "domain" : "169",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "179"
+  }, {
+    "range" : "91",
+    "domain" : "170",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "181"
+  }, {
+    "range" : "155",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "182"
+  }, {
+    "range" : "155",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
+  }, {
+    "range" : "155",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "184"
+  }, {
+    "range" : "155",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "185"
+  }, {
+    "range" : "155",
+    "domain" : "188",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "187"
+  }, {
+    "range" : "196",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "194"
+  }, {
+    "range" : "196",
+    "domain" : "198",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "197"
+  }, {
+    "range" : "196",
+    "domain" : "200",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "199"
+  }, {
+    "range" : "196",
+    "domain" : "202",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "201"
+  }, {
+    "range" : "198",
+    "domain" : "204",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
+  }, {
+    "range" : "132",
+    "domain" : "143",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "205"
+  }, {
+    "range" : "132",
+    "domain" : "144",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
+  }, {
+    "range" : "132",
+    "domain" : "145",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "207"
+  }, {
+    "range" : "148",
+    "domain" : "149",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
+  }, {
+    "range" : "148",
+    "domain" : "150",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "209"
+  }, {
+    "range" : "26",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
+  }, {
+    "range" : "213",
+    "domain" : "212",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "211"
+  }, {
+    "range" : "173",
+    "domain" : "215",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "214"
+  }, {
+    "range" : "116",
+    "domain" : "118",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "216"
+  }, {
+    "range" : "116",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "range" : "132",
+    "domain" : "142",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "218"
+  }, {
+    "range" : "173",
+    "domain" : "220",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
+  }, {
+    "range" : "39",
+    "domain" : "222",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
+  }, {
+    "range" : "173",
+    "domain" : "224",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "223"
+  }, {
+    "range" : "39",
+    "domain" : "226",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "225"
+  }, {
+    "range" : "173",
+    "domain" : "163",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "227"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
+  }, {
+    "range" : "173",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "229"
+  }, {
+    "range" : "39",
+    "domain" : "231",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
+  }, {
+    "range" : "173",
+    "domain" : "233",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
+  }, {
+    "range" : "39",
+    "domain" : "235",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
+  }, {
+    "range" : "173",
+    "domain" : "191",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
+  }, {
+    "range" : "39",
+    "domain" : "238",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "237"
+  }, {
+    "range" : "173",
+    "domain" : "240",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "239"
+  }, {
+    "range" : "39",
+    "domain" : "242",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "241"
+  }, {
+    "range" : "2",
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "243"
+  }, {
+    "range" : "39",
+    "domain" : "245",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "244"
+  }, {
+    "range" : "173",
+    "domain" : "247",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "246"
+  }, {
+    "range" : "39",
+    "domain" : "249",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "248"
+  }, {
+    "range" : "173",
+    "domain" : "251",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "250"
+  }, {
+    "range" : "39",
+    "domain" : "253",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "252"
+  }, {
+    "range" : "146",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "254"
+  }, {
+    "range" : "117",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "258"
+  }, {
+    "range" : "260",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "259"
+  }, {
+    "range" : "97",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
+  }, {
+    "range" : "146",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
+  }, {
+    "range" : "198",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
+  }, {
+    "range" : "193",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/containsAdress",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "containsAdress"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "266",
+    "attributes" : [ "external", "object" ],
+    "id" : "265"
+  }, {
+    "range" : "260",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
+  }, {
+    "range" : "198",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "268"
+  }, {
+    "range" : "39",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "269"
+  }, {
+    "range" : "117",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "270"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/servedIn",
+    "inverse" : "43",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "servedIn"
+    },
+    "domain" : "41",
+    "subproperty" : [ "272" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "271"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/serves",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "serves"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "41",
+    "subproperty" : [ "273" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "97",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "274"
+  }, {
+    "range" : "146",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "275"
+  }, {
+    "range" : "193",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "276"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/postCode",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "277",
+    "label" : {
+      "IRI-based" : "postCode"
+    },
+    "domain" : "186",
+    "attributes" : [ "external", "datatype", "someValues" ],
+    "id" : "278"
+  }, {
+    "range" : "39",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "279"
+  }, {
+    "range" : "91",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCity",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "locatedInCity"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "186",
+    "attributes" : [ "external", "functional", "someValues", "object" ],
+    "id" : "281"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/firstLineAddress",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "283",
+    "label" : {
+      "IRI-based" : "firstLineAddress"
+    },
+    "domain" : "186",
+    "attributes" : [ "external", "datatype", "someValues" ],
+    "id" : "284"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCountry",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "locatedInCountry"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "92",
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "285"
+  }, {
+    "range" : "117",
+    "domain" : "260",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "286"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCountry",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "locatedInCountry"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "141",
+    "attributes" : [ "external", "functional", "someValues", "object" ],
+    "id" : "287"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInState",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "locatedInState"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "141",
+    "attributes" : [ "external", "allValues", "functional", "object" ],
+    "id" : "288"
+  }, {
+    "range" : "117",
+    "domain" : "193",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "292"
+  }, {
+    "range" : "260",
+    "domain" : "193",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "293"
+  }, {
+    "range" : "117",
+    "domain" : "198",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "294"
+  }, {
+    "range" : "260",
+    "domain" : "198",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "295"
+  }, {
+    "range" : "260",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "296"
+  }, {
+    "range" : "198",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "297"
+  }, {
+    "range" : "198",
+    "domain" : "193",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "298"
+  }, {
+    "range" : "117",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "299"
+  }, {
+    "range" : "193",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "300"
+  }, {
+    "range" : "117",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "301"
+  }, {
+    "range" : "260",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "303"
+  }, {
+    "range" : "97",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "304"
+  }, {
+    "range" : "117",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "305"
+  }, {
+    "range" : "198",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "306"
+  }, {
+    "range" : "193",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "307"
+  }, {
+    "range" : "193",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "308"
+  }, {
+    "range" : "97",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "309"
+  }, {
+    "range" : "260",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "310"
+  }, {
+    "range" : "198",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "311"
+  }, {
+    "range" : "164",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "312"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "213",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "313"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasValue",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "149",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "315"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "149",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "317"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "213",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "320"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "213",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "323"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/containsLocation",
+    "inverse" : "282",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "containsLocation"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "155",
+    "subproperty" : [ "325", "139", "265" ],
+    "attributes" : [ "external", "allValues", "transitive", "object" ],
+    "id" : "324"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/amount",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "327",
+    "label" : {
+      "IRI-based" : "amount"
+    },
+    "domain" : "316",
+    "attributes" : [ "external", "datatype", "someValues" ],
+    "id" : "326"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/amountCurrency",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "329",
+    "label" : {
+      "IRI-based" : "amountCurrency"
+    },
+    "domain" : "316",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "328"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedIn",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "locatedIn"
+    },
+    "domain" : "155",
+    "subproperty" : [ "285", "331", "332", "333" ],
+    "attributes" : [ "external", "allValues", "transitive", "object" ],
+    "id" : "330"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "231",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "171",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "334"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "53",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "171",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "335"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "171",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "336"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "171",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "337"
+  }, {
+    "range" : "155",
+    "domain" : "316",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "338"
+  }, {
+    "range" : "155",
+    "domain" : "148",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "339"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasValue",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "148",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "340"
+  }, {
+    "range" : "316",
+    "domain" : "329",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "341"
+  }, {
+    "range" : "148",
+    "domain" : "329",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "342"
+  }, {
+    "range" : "316",
+    "domain" : "148",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "343"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInState",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "locatedInState"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "344",
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "333"
+  }, {
+    "range" : "155",
+    "domain" : "329",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "345"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCountry",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "188",
+    "label" : {
+      "IRI-based" : "locatedInCountry"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "154",
+    "attributes" : [ "external", "functional", "someValues", "object" ],
+    "id" : "349"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/servesMenuItem",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "149",
+    "label" : {
+      "IRI-based" : "servesMenuItem"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "2",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "352"
+  }, {
+    "range" : "164",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "354"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInAddress",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "locatedInAddress"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "2",
+    "attributes" : [ "external", "functional", "someValues", "object" ],
+    "id" : "355"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "289",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "356"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "132",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "289",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "357"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/restaurantName",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "353",
+    "label" : {
+      "IRI-based" : "restaurantName"
+    },
+    "domain" : "2",
+    "attributes" : [ "external", "datatype", "someValues" ],
+    "id" : "358"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "289",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "359"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "249",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "289",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "360"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "318",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "361"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "90",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "318",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "362"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/itemName",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "363",
+    "label" : {
+      "IRI-based" : "itemName"
+    },
+    "domain" : "149",
+    "attributes" : [ "external", "datatype", "someValues" ],
+    "id" : "364"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "127",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "318",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "365"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/servedInRestaurant",
+    "inverse" : "273",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "servedInRestaurant"
+    },
+    "superproperty" : [ "271" ],
+    "domain" : "149",
+    "attributes" : [ "external", "someValues", "object" ],
+    "id" : "366"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/containsState",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "154",
+    "label" : {
+      "IRI-based" : "containsState"
+    },
+    "superproperty" : [ "42" ],
+    "domain" : "344",
+    "attributes" : [ "external", "object" ],
+    "id" : "325"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/itemName",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "347",
+    "label" : {
+      "IRI-based" : "itemName"
+    },
+    "domain" : "41",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "367"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/isIngredientOf",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "isIngredientOf"
+    },
+    "domain" : "150",
+    "attributes" : [ "external", "object" ],
+    "id" : "314"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/amountCurrency",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "329",
+    "label" : {
+      "IRI-based" : "amountCurrency"
+    },
+    "domain" : "316",
+    "attributes" : [ "external", "object" ],
+    "id" : "368"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/name",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "346",
+    "label" : {
+      "IRI-based" : "name"
+    },
+    "domain" : "41",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "369"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/containsLocation",
+    "inverse" : "282",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "containsLocation"
+    },
+    "superproperty" : [ "40" ],
+    "domain" : "155",
+    "subproperty" : [ "325", "139", "265" ],
+    "attributes" : [ "external", "transitive", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "172",
+    "domain" : "289",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "370"
+  }, {
+    "range" : "172",
+    "domain" : "171",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "371"
+  }, {
+    "range" : "172",
+    "domain" : "318",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "372"
+  }, {
+    "range" : "172",
+    "domain" : "319",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "373"
+  }, {
+    "range" : "117",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "374"
+  }, {
+    "range" : "117",
+    "domain" : "321",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "375"
+  }, {
+    "range" : "117",
+    "domain" : "113",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "376"
+  }, {
+    "range" : "117",
+    "domain" : "74",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "377"
+  }, {
+    "range" : "117",
+    "domain" : "291",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "378"
+  }, {
+    "range" : "117",
+    "domain" : "322",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "379"
+  }, {
+    "range" : "172",
+    "domain" : "213",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "380"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInAddress",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "186",
+    "label" : {
+      "IRI-based" : "locatedInAddress"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "266",
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "331"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCity",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "locatedInCity"
+    },
+    "superproperty" : [ "282" ],
+    "domain" : "140",
+    "attributes" : [ "external", "functional", "object" ],
+    "id" : "332"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/firstLineAddress",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "350",
+    "label" : {
+      "IRI-based" : "firstLineAddress"
+    },
+    "domain" : "186",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "381"
+  }, {
+    "range" : "150",
+    "domain" : "196",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "382"
+  }, {
+    "range" : "150",
+    "domain" : "164",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "383"
+  }, {
+    "range" : "150",
+    "domain" : "39",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "384"
+  }, {
+    "range" : "150",
+    "domain" : "97",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "385"
+  }, {
+    "range" : "86",
+    "domain" : "190",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "386"
+  }, {
+    "range" : "86",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "387"
+  }, {
+    "range" : "86",
+    "domain" : "257",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "388"
+  }, {
+    "range" : "86",
+    "domain" : "180",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "389"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "150",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "148",
+    "attributes" : [ "external", "object" ],
+    "id" : "390"
+  }, {
+    "range" : "20",
+    "domain" : "302",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "391"
+  }, {
+    "range" : "147",
+    "domain" : "193",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "392"
+  }, {
+    "range" : "291",
+    "domain" : "290",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "393"
+  }, {
+    "range" : "249",
+    "domain" : "256",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "394"
+  }, {
+    "range" : "164",
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "395"
+  }, {
+    "range" : "164",
+    "domain" : "147",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "396"
+  }, {
+    "range" : "147",
+    "domain" : "195",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "397"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedIn",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "155",
+    "label" : {
+      "IRI-based" : "locatedIn"
+    },
+    "domain" : "155",
+    "subproperty" : [ "285", "331", "332", "333" ],
+    "attributes" : [ "external", "transitive", "object" ],
+    "id" : "282"
+  }, {
+    "range" : "147",
+    "domain" : "260",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "398"
+  }, {
+    "range" : "147",
+    "domain" : "198",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "399"
+  }, {
+    "range" : "147",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "400"
+  }, {
+    "range" : "147",
+    "domain" : "117",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "401"
+  }, {
+    "range" : "149",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "402"
+  }, {
+    "range" : "153",
+    "domain" : "152",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "403"
+  }, {
+    "range" : "153",
+    "domain" : "255",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "404"
+  }, {
+    "range" : "163",
+    "domain" : "171",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "405"
+  }, {
+    "range" : "163",
+    "domain" : "174",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "406"
+  }, {
+    "range" : "191",
+    "domain" : "192",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "407"
+  }, {
+    "range" : "190",
+    "domain" : "189",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "408"
+  }, {
+    "range" : "87",
+    "domain" : "172",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "409"
+  }, {
+    "range" : "87",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "410"
+  }, {
+    "range" : "87",
+    "domain" : "173",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "411"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/postCode",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "348",
+    "label" : {
+      "IRI-based" : "postCode"
+    },
+    "domain" : "186",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "412"
+  }, {
+    "range" : "2",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "413"
+  }, {
+    "range" : "154",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "414"
+  }, {
+    "range" : "188",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "415"
+  }, {
+    "range" : "2",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "416"
+  }, {
+    "range" : "154",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "417"
+  }, {
+    "range" : "2",
+    "domain" : "188",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "418"
+  }, {
+    "range" : "154",
+    "domain" : "188",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "419"
+  }, {
+    "range" : "154",
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "420"
+  }, {
+    "range" : "141",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "421"
+  }, {
+    "range" : "188",
+    "domain" : "186",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "422"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/amount",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "351",
+    "label" : {
+      "IRI-based" : "amount"
+    },
+    "domain" : "316",
+    "attributes" : [ "external", "datatype" ],
+    "id" : "423"
+  } ]
+}
