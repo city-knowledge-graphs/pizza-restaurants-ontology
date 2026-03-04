@@ -1,0 +1,2591 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://w3id.org/city-kgs/restaurants#"
+     xml:base="https://w3id.org/city-kgs/restaurants"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:restaurants="https://w3id.org/city-kgs/restaurants/">
+    <owl:Ontology rdf:about="https://w3id.org/city-kgs/restaurants">
+        <owl:versionIRI rdf:resource="https://w3id.org/city-kgs/restaurants/1.0.0"/>
+        <dc:creator>Ernesto Jimenez Ruiz</dc:creator>
+        <owl:versionInfo>Version 02/03/2024</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/amountCurrency -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/amountCurrency">
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/ItemValue"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Currency"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/containsAdress -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/containsAdress">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/containsLocation"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/containsCity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/containsCity">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/containsLocation"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/containsLocation -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/containsLocation">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/city-kgs/restaurants/locatedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/containsState -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/containsState">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/containsLocation"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/State"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/hasIngredient -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/hasIngredient">
+        <owl:inverseOf rdf:resource="https://w3id.org/city-kgs/restaurants/isIngredientOf"/>
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/Food"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Ingredient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/hasValue -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/hasValue"/>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/isIngredientOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/isIngredientOf">
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/Ingredient"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Food"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/locatedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/locatedIn">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/locatedInAddress -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/locatedInAddress">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/locatedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Address"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/locatedInCity -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/locatedInCity">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/locatedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/City"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/locatedInCountry -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/locatedInCountry">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/locatedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/Country"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/locatedInState -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/locatedInState">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/locatedIn"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="https://w3id.org/city-kgs/restaurants/State"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/servedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/servedIn">
+        <owl:inverseOf rdf:resource="https://w3id.org/city-kgs/restaurants/serves"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/servedInRestaurant -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/servedInRestaurant">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/servedIn"/>
+        <owl:inverseOf rdf:resource="https://w3id.org/city-kgs/restaurants/servesMenuItem"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/serves -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/serves">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/servesMenuItem -->
+
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/city-kgs/restaurants/servesMenuItem">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/serves"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/amount -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/city-kgs/restaurants/amount">
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/ItemValue"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/firstLineAddress -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/city-kgs/restaurants/firstLineAddress">
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/itemName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/city-kgs/restaurants/itemName">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/name"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/name -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/city-kgs/restaurants/name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/postCode -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/city-kgs/restaurants/postCode">
+        <rdfs:domain rdf:resource="https://w3id.org/city-kgs/restaurants/Address"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/restaurantName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/city-kgs/restaurants/restaurantName">
+        <rdfs:subPropertyOf rdf:resource="https://w3id.org/city-kgs/restaurants/name"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Address -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Address">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/locatedInCity"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/City"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/firstLineAddress"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/postCode"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Address</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/AmericanPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/AmericanPizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>American pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/AmericanRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/AmericanRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>American restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Anchovies -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Anchovies">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Artichokes -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Artichokes">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Artichoke</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/AsianRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/AsianRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Asian restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Bacon -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Bacon">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Bacon</rdfs:label>
+        <skos:altLabel>Pancetta</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Bakery -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Bakery">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Bakery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Bar -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Bar">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/BarsPubsClubs"/>
+        <rdfs:label>Bar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BarAndGrill -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BarAndGrill">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Bar and Grill</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BarbecuePizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BarbecuePizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/BarbecueSauce"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByIngredient"/>
+        <rdfs:label>Barbecue pizza</rdfs:label>
+        <skos:altLabel>BBQ pizza</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BarbecueSauce -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BarbecueSauce">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Sauce"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VeganIngredient"/>
+        <rdfs:label>Barbecue sause</rdfs:label>
+        <skos:altLabel>BBQ sauce</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BarsPubsClubs -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BarsPubsClubs">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Bars, pubs and clubs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Basil -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Basil">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Herbs"/>
+        <rdfs:label>Basil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Beans -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Beans">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Seeds"/>
+        <rdfs:label>Beans</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BeansPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BeansPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Beans"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByIngredient"/>
+        <rdfs:label>Beans pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Beef -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Beef">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Beef</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BeerPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BeerPlace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/BarsPubsClubs"/>
+        <rdfs:label>Beer place</rdfs:label>
+        <skos:altLabel>Beer tavern</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BlackOlives -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BlackOlives">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Olives"/>
+        <rdfs:label>Black olives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BlueCheese -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BlueCheese">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Blue cheese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Broccoli -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Broccoli">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Broccoli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/BurgerPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/BurgerPlace">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Burger place</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/ButternutSquash -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/ButternutSquash">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/WinterSquash"/>
+        <rdfs:label>ButternutSquash</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/CalifornianPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/CalifornianPizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/AmericanPizza"/>
+        <rdfs:label>Californian pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Capers -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Capers">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Capers</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Carrot -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Carrot">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/RootVegetable"/>
+        <rdfs:label>Carrot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Cheddar -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Cheddar">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Cheddar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Cheese -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Cheese">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VegetarianIngredient"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/CherryTomato -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/CherryTomato">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Tomato"/>
+        <rdfs:label>Cherry tomato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Chicken -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Chicken">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Chicken</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/ChickenPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/ChickenPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Chicken"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByIngredient"/>
+        <rdfs:label>Chicken pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/ChineseRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/ChineseRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/AsianRestaurant"/>
+        <rdfs:label>Chinese restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Chorizo -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Chorizo">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Chorizo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/City -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/City">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/locatedInCountry"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/locatedInState"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/State"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>City</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Club -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Club">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/BarsPubsClubs"/>
+        <rdfs:label>Club</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/CocktailBars -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/CocktailBars">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Bar"/>
+        <rdfs:label>Cocktail bars</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/CoffeeShop -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/CoffeeShop">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Coffee shop</rdfs:label>
+        <skos:altLabel>Cafeteria</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Country -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Country">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+        <rdfs:label>Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/CrabMeat -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/CrabMeat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+        <rdfs:label>Crab meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Currency -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Currency">
+        <rdfs:label>Currency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/DietaryRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/DietaryRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Dietary restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Eggplant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Eggplant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Eggplant</rdfs:label>
+        <skos:altLabel>Aubergine</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Feta -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Feta">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Feta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/FetaPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/FetaPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Feta"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByIngredient"/>
+        <rdfs:label>Feta pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Fig -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Fig">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Fruit"/>
+        <rdfs:label>Fig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Food -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Food">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasValue"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/ItemValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/FrenchRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/FrenchRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant"/>
+        <rdfs:label>French restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Fruit -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Fruit">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:comment>For simplicity, this ontology relies on the common language usage of &quot;fruit&quot; (i.e., sweet fruit).</rdfs:comment>
+        <rdfs:label>Fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/FruitPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/FruitPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Fruit"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>Fruit pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Garlic -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Garlic">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Garlic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Gastropub -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Gastropub">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pub"/>
+        <rdfs:label>Gastro pub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GlutenFreeRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/GlutenFreeRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/DietaryRestaurant"/>
+        <rdfs:label>Gluten-free restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GoatCheese -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/GoatCheese">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Goat cheese</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Gorgonzola -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Gorgonzola">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Gorgonzola</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GourmetRestaurants -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/GourmetRestaurants">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Gourmet restaurants</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GreekPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/GreekPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Feta"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Olives"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Spinach"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>Greek pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GreekRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/GreekRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant"/>
+        <rdfs:label>Greek restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GreenOlives -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/GreenOlives">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Olives"/>
+        <rdfs:label>Green olives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GreenPepper -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/GreenPepper">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pepper"/>
+        <rdfs:label>Green pepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Ham -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Ham">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Ham</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/HawaiianPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/HawaiianPizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/AmericanPizza"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Ham"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Pineapple"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Hawaiian pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Herbs -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Herbs">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Herbs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/HotSauce -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/HotSauce">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Sauce"/>
+        <rdfs:label>Hot sauce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/IndianRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/IndianRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/AsianRestaurant"/>
+        <rdfs:label>Indian restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Ingredient -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Ingredient">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Food"/>
+        <rdfs:label>Ingredient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/ItalianRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/ItalianRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant"/>
+        <rdfs:label>Italian restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/ItemValue -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/ItemValue">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/amountCurrency"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Currency"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/amount"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Item value</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/JalapenoPepper -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/JalapenoPepper">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pepper"/>
+        <rdfs:label>Jalapeno pepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/JapanesePizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/JapanesePizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Salmon"/>
+                            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Tuna"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Japanese pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/JapaneseRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/JapaneseRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/AsianRestaurant"/>
+        <rdfs:label>Japanese restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/KaraokeBar -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/KaraokeBar">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Bar"/>
+        <rdfs:label>Karaoke bar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Location -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Location">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/containsLocation"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/locatedIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/MargheritaPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/MargheritaPizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Basil"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Mozzarella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Margherita pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Marinara -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Marinara">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+        <rdfs:label>Marinara</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Meat -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Meat">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/city-kgs/restaurants/VegetarianIngredient"/>
+        <rdfs:label>Meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/MeatPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/MeatPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>Meat pizza</rdfs:label>
+        <skos:altLabel>Meaty pizza</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Meatballs -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Meatballs">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Meatballs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Mediterranean restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/MenuItem -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/MenuItem">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Ingredient"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasValue"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/ItemValue"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/servedInRestaurant"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/itemName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Menu item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/MexicanPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/MexicanPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Beans"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/HotSauce"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/AmericanPizza"/>
+        <rdfs:label>Mexican pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/MexicanRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/MexicanRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/AmericanRestaurant"/>
+        <rdfs:label>Mexican restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Mortadella -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Mortadella">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Mortadella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Mozzarella -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Mozzarella">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Mozzarella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Mushroom -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Mushroom">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Mushroom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/MushroomPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/MushroomPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Mushroom"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByIngredient"/>
+        <rdfs:label>Mushroom pizza</rdfs:label>
+        <skos:altLabel>Funghi pizza</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/NamedPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/NamedPizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pizza"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/OliveOil -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/OliveOil">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VeganIngredient"/>
+        <rdfs:label>Olive oil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Olives -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Olives">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Olives</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Onion -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Onion">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Onion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Oregano -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Oregano">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Herbs"/>
+        <rdfs:label>Oregano</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Parmesan -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Parmesan">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Parmesan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pepper -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pepper">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Pepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pepperoni -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pepperoni">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Sausage"/>
+        <rdfs:label>Pepperoni</rdfs:label>
+        <skos:altLabel>Pepperoni sausage</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pesto -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pesto">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Sauce"/>
+        <rdfs:label>Pesto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pineapple -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pineapple">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Fruit"/>
+        <rdfs:label>Pineapple</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PineapplePizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PineapplePizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Pineapple"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByIngredient"/>
+        <rdfs:label>Pineapple pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/MenuItem"/>
+        <rdfs:label>Pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaBianca -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaBianca">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:complementOf rdf:resource="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:comment>Pizza without tomato sauce</rdfs:comment>
+        <rdfs:label>Pizza bianca</rdfs:label>
+        <skos:altLabel>White pizza</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaByIngredient -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaByIngredient">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pizza"/>
+        <rdfs:comment>Organized pizzas by ingredient</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaByStyle -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaByStyle">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pizza"/>
+        <rdfs:comment>Organizes pizzas by their style</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaErnesto -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaErnesto">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Anchovies"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Capers"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Anchovies"/>
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Capers"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/NamedPizza"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaMarinara -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaMarinara">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Garlic"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Mozzarella"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Garlic"/>
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Mozzarella"/>
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Garlic"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Mozzarella"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Pizza marinara</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaNapolitana -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaNapolitana">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/MargheritaPizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:allValuesFrom>
+                            <owl:Class>
+                                <owl:unionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Basil"/>
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Cheese"/>
+                                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+                                </owl:unionOf>
+                            </owl:Class>
+                        </owl:allValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/MargheritaPizza"/>
+        <rdfs:label>Pizza Napolitana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaNutella -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaNutella">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/SweetPizza"/>
+        <rdfs:label>Pizza Nutella</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaPlace -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaPlace">
+        <owl:equivalentClass rdf:resource="https://w3id.org/city-kgs/restaurants/Pizzeria"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaRomana -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaRomana">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>Pizza Romana</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PizzaSupreme -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PizzaSupreme">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/NamedPizza"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Onion"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Pepper"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Pepperoni"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Sausage"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Pizza supreme</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pizzeria -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pizzeria">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Pizzeria</rdfs:label>
+        <skos:altLabel>Pizza place</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/PlumTomato -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/PlumTomato">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Tomato"/>
+        <rdfs:label>Plum tomato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Potato -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Potato">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/RootVegetable"/>
+        <rdfs:label>Potato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Prosciutto -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Prosciutto">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Prosciutto</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Provolone -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Provolone">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Provolone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pub -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pub">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/BarsPubsClubs"/>
+        <rdfs:label>Pub</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Pumpkin -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Pumpkin">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/WinterSquash"/>
+        <rdfs:label>Pumpkin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/RedPepper -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/RedPepper">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pepper"/>
+        <rdfs:label>Red pepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Restaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Restaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/locatedInAddress"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Address"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/servesMenuItem"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/MenuItem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/restaurantName"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Ricotta -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Ricotta">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Cheese"/>
+        <rdfs:label>Ricotta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/RootVegetable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/RootVegetable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Root vegetable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Rosemary -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Rosemary">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Herbs"/>
+        <rdfs:label>Rosemary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Salami -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Salami">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Salami</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Salmon -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Salmon">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+        <rdfs:label>Salmon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Sauce -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Sauce">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Ingredient"/>
+        <rdfs:label>Sauce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Sausage -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Sausage">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Meat"/>
+        <rdfs:label>Sausage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Scallops -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Scallops">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+        <rdfs:label>Scallop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SeaFood -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SeaFood">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Ingredient"/>
+        <owl:disjointWith rdf:resource="https://w3id.org/city-kgs/restaurants/VegetarianIngredient"/>
+        <rdfs:label>Seafood</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SeafoodPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SeafoodPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>Seafood pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SeafoodRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SeafoodRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+        <rdfs:label>Seafood restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Seeds -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Seeds">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Seeds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Shrimp -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Shrimp">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+        <rdfs:label>Shrimp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SpanishRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SpanishRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant"/>
+        <rdfs:label>Spanish restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Spinach -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Spinach">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Spinach</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SportsBar -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SportsBar">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Bar"/>
+        <rdfs:label>Sports bar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/State -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/State">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Location"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/locatedInCountry"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/Country"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>State</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SushiRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SushiRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/JapaneseRestaurant"/>
+        <rdfs:label>Sushi restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SweetPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SweetPizza">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>Sweet pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/SweetPotato -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/SweetPotato">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/RootVegetable"/>
+        <rdfs:label>Sweet potato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Tofu -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Tofu">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VeganIngredient"/>
+        <rdfs:label>Tofu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Tomato -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Tomato">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Tomato</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/TomatoSauce -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/TomatoSauce">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Sauce"/>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VeganIngredient"/>
+        <rdfs:label>Tomato sauce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Tuna -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Tuna">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+        <rdfs:label>Tuna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/VeganCheese -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/VeganCheese">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VeganIngredient"/>
+        <rdfs:label>Vegan cheese</rdfs:label>
+        <skos:altLabel>Dairy-free cheese</skos:altLabel>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/VeganIngredient -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/VeganIngredient">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VegetarianIngredient"/>
+        <rdfs:label>Vegan ingredient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/VeganPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/VeganPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:allValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/VeganIngredient"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VegetarianPizza"/>
+        <rdfs:label>Vegan pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/VeganRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/VeganRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/DietaryRestaurant"/>
+        <rdfs:label>Vegan restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Vegetable -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Vegetable">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/VeganIngredient"/>
+        <rdfs:comment>For simplicity, this ontology relies on the original meaning to refer to all edible plant matter, including the flowers, fruits, stems, leaves, roots, and seeds.</rdfs:comment>
+        <rdfs:label>Vegetable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/VegetarianIngredient -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/VegetarianIngredient">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/VegetarianPizza -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/VegetarianPizza">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Pizza"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="https://w3id.org/city-kgs/restaurants/hasIngredient"/>
+                        <owl:allValuesFrom rdf:resource="https://w3id.org/city-kgs/restaurants/VegetarianIngredient"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaByStyle"/>
+        <rdfs:label>Vegetarian pizza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/VegetarianRestaurant -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/VegetarianRestaurant">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/DietaryRestaurant"/>
+        <rdfs:label>Vegetarian restaurant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/WinterSquash -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/WinterSquash">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Winter squash</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/YellowPepper -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/YellowPepper">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Pepper"/>
+        <rdfs:label>Yellow pepper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Zucchini -->
+
+
+    <owl:Class rdf:about="https://w3id.org/city-kgs/restaurants/Zucchini">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        <rdfs:label>Zucchini</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/DaiyaCheese -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/DaiyaCheese">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/VeganCheese"/>
+        <rdfs:comment>Daiya is a brand of dairy-free products</rdfs:comment>
+        <rdfs:label>Daiya cheese</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/EUR -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/EUR">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/GBP -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/GBP">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/US -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/US">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Country"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/USD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/USD">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Currency"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/WV -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/WV">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/State"/>
+        <restaurants:locatedInCountry rdf:resource="https://w3id.org/city-kgs/restaurants/US"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/Weirton -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/Weirton">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/City"/>
+        <restaurants:locatedInState rdf:resource="https://w3id.org/city-kgs/restaurants/WV"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/address_3601_Main_St_Weirton -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/address_3601_Main_St_Weirton">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Address"/>
+        <restaurants:locatedInCity rdf:resource="https://w3id.org/city-kgs/restaurants/Weirton"/>
+        <restaurants:firstLineAddress>3601 Main St</restaurants:firstLineAddress>
+        <restaurants:postCode>26062</restaurants:postCode>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/bacon -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/bacon">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Bacon"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/beef -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/beef">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Beef"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/feta -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/feta">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Feta"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/ham -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/ham">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Ham"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/HawaiianPizza"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/ham"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/pineapple"/>
+        <restaurants:hasValue rdf:resource="https://w3id.org/city-kgs/restaurants/7.99USD"/>
+        <restaurants:itemName>Hawaiian Gourmet Stuffed Pizza</restaurants:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Pizza"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/bacon"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/beef"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/pepperoni"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/sausage"/>
+        <restaurants:hasValue rdf:resource="https://w3id.org/city-kgs/restaurants/7.99USD"/>
+        <restaurants:itemName>Meat Lover Gourmet Stuffed Pizza</restaurants:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Pizza"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/feta"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/mozzarella"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/spinach"/>
+        <restaurants:hasIngredient rdf:resource="https://w3id.org/city-kgs/restaurants/tomato"/>
+        <restaurants:itemName>Mediterranean Gourmet Suffed Pizza</restaurants:itemName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/mozzarella -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/mozzarella">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Mozzarella"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/pepperoni -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/pepperoni">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Pepperoni"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/pineapple -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/pineapple">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Pineapple"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/sausage -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/sausage">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Sausage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/sicilias_pizzeria_weirton -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/sicilias_pizzeria_weirton">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/PizzaPlace"/>
+        <restaurants:locatedInAddress rdf:resource="https://w3id.org/city-kgs/restaurants/address_3601_Main_St_Weirton"/>
+        <restaurants:locatedInCity rdf:resource="https://w3id.org/city-kgs/restaurants/Weirton"/>
+        <restaurants:serves rdf:resource="https://w3id.org/city-kgs/restaurants/hawaiian_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton"/>
+        <restaurants:serves rdf:resource="https://w3id.org/city-kgs/restaurants/meat_lover_gourmet_stuffed_pizza_at_sicilias_pizzeria_weirton"/>
+        <restaurants:serves rdf:resource="https://w3id.org/city-kgs/restaurants/mediterranean_gourmet_suffed_pizza_at_sicilias_pizzeria_weirton"/>
+        <restaurants:restaurantName>Sicilia&apos;s Pizzeria</restaurants:restaurantName>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/spinach -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/spinach">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Spinach"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/tomato -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/tomato">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/Tomato"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://w3id.org/city-kgs/restaurants/7.99USD -->
+
+
+    <owl:NamedIndividual rdf:about="https://w3id.org/city-kgs/restaurants/7.99USD">
+        <rdf:type rdf:resource="https://w3id.org/city-kgs/restaurants/ItemValue"/>
+        <restaurants:amountCurrency rdf:resource="https://w3id.org/city-kgs/restaurants/USD"/>
+        <restaurants:amount rdf:datatype="http://www.w3.org/2001/XMLSchema#double">7.99</restaurants:amount>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Address"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/City"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Country"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Restaurant"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/State"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/BarbecueSauce"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Cheese"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Meat"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/OliveOil"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/SeaFood"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Tofu"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/TomatoSauce"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/VeganCheese"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Vegetable"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Currency"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Food"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/ItemValue"/>
+            <rdf:Description rdf:about="https://w3id.org/city-kgs/restaurants/Location"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

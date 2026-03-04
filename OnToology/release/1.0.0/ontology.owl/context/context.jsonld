@@ -1,0 +1,567 @@
+{
+  "@context" : {
+    "Pineapple" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pineapple"
+    },
+    "Address" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Address"
+    },
+    "SushiRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SushiRestaurant"
+    },
+    "locatedInAddress" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/locatedInAddress",
+      "@type" : "@id"
+    },
+    "GreekRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/GreekRestaurant"
+    },
+    "SeafoodRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SeafoodRestaurant"
+    },
+    "Parmesan" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Parmesan"
+    },
+    "PizzaMarinara" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaMarinara"
+    },
+    "versionInfo" : {
+      "@id" : "http://www.w3.org/2002/07/owl#versionInfo"
+    },
+    "servesMenuItem" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/servesMenuItem",
+      "@type" : "@id"
+    },
+    "Tuna" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Tuna"
+    },
+    "VegetarianRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/VegetarianRestaurant"
+    },
+    "BeansPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BeansPizza"
+    },
+    "PlumTomato" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PlumTomato"
+    },
+    "SportsBar" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SportsBar"
+    },
+    "Feta" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Feta"
+    },
+    "MediterraneanRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/MediterraneanRestaurant"
+    },
+    "RootVegetable" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/RootVegetable"
+    },
+    "Carrot" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Carrot"
+    },
+    "VeganPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/VeganPizza"
+    },
+    "VeganIngredient" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/VeganIngredient"
+    },
+    "Country" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Country"
+    },
+    "JalapenoPepper" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/JalapenoPepper"
+    },
+    "YellowPepper" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/YellowPepper"
+    },
+    "locatedInCountry" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/locatedInCountry",
+      "@type" : "@id"
+    },
+    "locatedInState" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/locatedInState",
+      "@type" : "@id"
+    },
+    "Food" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Food"
+    },
+    "PizzaSupreme" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaSupreme"
+    },
+    "Meat" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Meat"
+    },
+    "Onion" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Onion"
+    },
+    "Mozzarella" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Mozzarella"
+    },
+    "firstLineAddress" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/firstLineAddress",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Bacon" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Bacon"
+    },
+    "Fruit" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Fruit"
+    },
+    "hasValue" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/hasValue",
+      "@type" : "@id"
+    },
+    "GourmetRestaurants" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/GourmetRestaurants"
+    },
+    "Tofu" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Tofu"
+    },
+    "Gorgonzola" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Gorgonzola"
+    },
+    "BlackOlives" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BlackOlives"
+    },
+    "ChickenPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/ChickenPizza"
+    },
+    "OliveOil" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/OliveOil"
+    },
+    "BarsPubsClubs" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BarsPubsClubs"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "Chicken" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Chicken"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "Beef" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Beef"
+    },
+    "Fig" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Fig"
+    },
+    "Pizzeria" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pizzeria"
+    },
+    "Scallops" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Scallops"
+    },
+    "Ingredient" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Ingredient"
+    },
+    "PizzaRomana" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaRomana"
+    },
+    "Pizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pizza"
+    },
+    "Pesto" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pesto"
+    },
+    "Location" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Location"
+    },
+    "Eggplant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Eggplant"
+    },
+    "SpanishRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SpanishRestaurant"
+    },
+    "Pub" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pub"
+    },
+    "FetaPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/FetaPizza"
+    },
+    "MexicanRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/MexicanRestaurant"
+    },
+    "Cheddar" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Cheddar"
+    },
+    "Cheese" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Cheese"
+    },
+    "CherryTomato" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/CherryTomato"
+    },
+    "VegetarianPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/VegetarianPizza"
+    },
+    "PizzaErnesto" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaErnesto"
+    },
+    "VegetarianIngredient" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/VegetarianIngredient"
+    },
+    "KaraokeBar" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/KaraokeBar"
+    },
+    "Sauce" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Sauce"
+    },
+    "VeganRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/VeganRestaurant"
+    },
+    "SweetPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SweetPizza"
+    },
+    "Chorizo" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Chorizo"
+    },
+    "Artichokes" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Artichokes"
+    },
+    "GlutenFreeRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/GlutenFreeRestaurant"
+    },
+    "Ricotta" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Ricotta"
+    },
+    "PizzaByStyle" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaByStyle"
+    },
+    "HawaiianPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/HawaiianPizza"
+    },
+    "Rosemary" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Rosemary"
+    },
+    "CocktailBars" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/CocktailBars"
+    },
+    "Broccoli" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Broccoli"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "GreenPepper" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/GreenPepper"
+    },
+    "name" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/name",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "MargheritaPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/MargheritaPizza"
+    },
+    "Beans" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Beans"
+    },
+    "containsLocation" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/containsLocation",
+      "@type" : "@id"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "amountCurrency" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/amountCurrency",
+      "@type" : "@id"
+    },
+    "GreenOlives" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/GreenOlives"
+    },
+    "servedInRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/servedInRestaurant",
+      "@type" : "@id"
+    },
+    "Vegetable" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Vegetable"
+    },
+    "MexicanPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/MexicanPizza"
+    },
+    "BarbecuePizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BarbecuePizza"
+    },
+    "Salmon" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Salmon"
+    },
+    "Tomato" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Tomato"
+    },
+    "MenuItem" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/MenuItem"
+    },
+    "Bakery" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Bakery"
+    },
+    "CalifornianPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/CalifornianPizza"
+    },
+    "Meatballs" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Meatballs"
+    },
+    "Salami" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Salami"
+    },
+    "CrabMeat" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/CrabMeat"
+    },
+    "containsState" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/containsState",
+      "@type" : "@id"
+    },
+    "Potato" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Potato"
+    },
+    "JapaneseRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/JapaneseRestaurant"
+    },
+    "SweetPotato" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SweetPotato"
+    },
+    "Herbs" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Herbs"
+    },
+    "Provolone" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Provolone"
+    },
+    "BarAndGrill" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BarAndGrill"
+    },
+    "PizzaNapolitana" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaNapolitana"
+    },
+    "PizzaByIngredient" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaByIngredient"
+    },
+    "Spinach" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Spinach"
+    },
+    "ItalianRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/ItalianRestaurant"
+    },
+    "AmericanPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/AmericanPizza"
+    },
+    "Restaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Restaurant"
+    },
+    "AsianRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/AsianRestaurant"
+    },
+    "restaurantName" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/restaurantName"
+    },
+    "hasIngredient" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+      "@type" : "@id"
+    },
+    "locatedInCity" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/locatedInCity",
+      "@type" : "@id"
+    },
+    "BeerPlace" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BeerPlace"
+    },
+    "FrenchRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/FrenchRestaurant"
+    },
+    "SeafoodPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SeafoodPizza"
+    },
+    "serves" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/serves",
+      "@type" : "@id"
+    },
+    "amount" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/amount",
+      "@type" : "http://www.w3.org/2001/XMLSchema#double"
+    },
+    "isIngredientOf" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/isIngredientOf",
+      "@type" : "@id"
+    },
+    "FruitPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/FruitPizza"
+    },
+    "Shrimp" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Shrimp"
+    },
+    "Basil" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Basil"
+    },
+    "BarbecueSauce" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BarbecueSauce"
+    },
+    "ItemValue" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/ItemValue"
+    },
+    "BurgerPlace" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BurgerPlace"
+    },
+    "RedPepper" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/RedPepper"
+    },
+    "locatedIn" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/locatedIn",
+      "@type" : "@id"
+    },
+    "GreekPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/GreekPizza"
+    },
+    "ChineseRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/ChineseRestaurant"
+    },
+    "Pumpkin" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pumpkin"
+    },
+    "Mortadella" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Mortadella"
+    },
+    "Ham" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Ham"
+    },
+    "City" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/City"
+    },
+    "MeatPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/MeatPizza"
+    },
+    "Pepper" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pepper"
+    },
+    "TomatoSauce" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/TomatoSauce"
+    },
+    "State" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/State"
+    },
+    "Zucchini" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Zucchini"
+    },
+    "PizzaPlace" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaPlace"
+    },
+    "postCode" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/postCode",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "Capers" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Capers"
+    },
+    "DietaryRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/DietaryRestaurant"
+    },
+    "itemName" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/itemName",
+      "@type" : "http://www.w3.org/2001/XMLSchema#string"
+    },
+    "PizzaBianca" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaBianca"
+    },
+    "Currency" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Currency"
+    },
+    "ButternutSquash" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/ButternutSquash"
+    },
+    "Gastropub" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Gastropub"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Club" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Club"
+    },
+    "Oregano" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Oregano"
+    },
+    "IndianRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/IndianRestaurant"
+    },
+    "Sausage" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Sausage"
+    },
+    "WinterSquash" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/WinterSquash"
+    },
+    "GoatCheese" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/GoatCheese"
+    },
+    "CoffeeShop" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/CoffeeShop"
+    },
+    "Marinara" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Marinara"
+    },
+    "Bar" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Bar"
+    },
+    "Olives" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Olives"
+    },
+    "containsCity" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/containsCity",
+      "@type" : "@id"
+    },
+    "Pepperoni" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Pepperoni"
+    },
+    "MushroomPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/MushroomPizza"
+    },
+    "SeaFood" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/SeaFood"
+    },
+    "JapanesePizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/JapanesePizza"
+    },
+    "HotSauce" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/HotSauce"
+    },
+    "AmericanRestaurant" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/AmericanRestaurant"
+    },
+    "Seeds" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Seeds"
+    },
+    "Garlic" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Garlic"
+    },
+    "NamedPizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/NamedPizza"
+    },
+    "Mushroom" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Mushroom"
+    },
+    "Anchovies" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Anchovies"
+    },
+    "servedIn" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/servedIn",
+      "@type" : "@id"
+    },
+    "PizzaNutella" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PizzaNutella"
+    },
+    "PineapplePizza" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/PineapplePizza"
+    },
+    "VeganCheese" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/VeganCheese"
+    },
+    "containsAdress" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/containsAdress",
+      "@type" : "@id"
+    },
+    "BlueCheese" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/BlueCheese"
+    },
+    "Prosciutto" : {
+      "@id" : "https://w3id.org/city-kgs/restaurants/Prosciutto"
+    }
+  }
+}
