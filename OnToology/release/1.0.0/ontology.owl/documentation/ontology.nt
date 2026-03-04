@@ -1,12 +1,12 @@
 <https://w3id.org/city-kgs/restaurants> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://w3id.org/city-kgs/restaurants> <http://www.w3.org/2002/07/owl#versionIRI> <https://w3id.org/city-kgs/restaurants/1.0.0> .
-<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/abstract> "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell" .
-<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/creator> "Ernesto Jimenez Ruiz" .
-<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/description> "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell." .
-<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/title> "Pizza-Restaurants ontology" .
-<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/terms/creator> "Ernesto Jimenez Ruiz" .
+<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/abstract> "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell"@en .
+<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/creator> "Ernesto Jimenez Ruiz"@en .
+<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/description> "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell."@en .
+<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/elements/1.1/title> "Pizza-Restaurants ontology"@en .
+<https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/terms/creator> "Ernesto Jimenez Ruiz"@en .
 <https://w3id.org/city-kgs/restaurants> <http://purl.org/dc/terms/license> <https://www.apache.org/licenses/LICENSE-2.0.html> .
-<https://w3id.org/city-kgs/restaurants> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell" .
+<https://w3id.org/city-kgs/restaurants> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell"@en .
 <https://w3id.org/city-kgs/restaurants> <http://www.w3.org/2002/07/owl#versionInfo> "Version 02/03/2024" .
 # 
 # 
