@@ -8,10 +8,17 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/">
     <owl:Ontology rdf:about="https://w3id.org/city-kgs/restaurants">
         <owl:versionIRI rdf:resource="https://w3id.org/city-kgs/restaurants/1.0.0"/>
+        <dc:abstract>Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell</dc:abstract>
         <dc:creator>Ernesto Jimenez Ruiz</dc:creator>
+        <dc:description>Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell.</dc:description>
+        <dc:title>Pizza-Restaurants ontology</dc:title>
+        <terms:creator>Ernesto Jimenez Ruiz</terms:creator>
+        <terms:license rdf:resource="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+        <rdfs:comment>Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell</rdfs:comment>
         <owl:versionInfo>Version 02/03/2024</owl:versionInfo>
     </owl:Ontology>
     
@@ -28,9 +35,39 @@
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/abstract -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/abstract"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
     
 
 
