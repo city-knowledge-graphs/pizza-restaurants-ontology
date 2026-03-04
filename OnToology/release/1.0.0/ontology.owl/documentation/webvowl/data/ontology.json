@@ -163,6 +163,9 @@
     "id" : "99",
     "type" : "owl:Class"
   }, {
+    "id" : "277",
+    "type" : "rdfs:Datatype"
+  }, {
     "id" : "141",
     "type" : "owl:Class"
   }, {
@@ -208,11 +211,11 @@
     "id" : "117",
     "type" : "owl:Class"
   }, {
-    "id" : "157",
-    "type" : "owl:Class"
-  }, {
     "id" : "57",
     "type" : "owl:intersectionOf"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
   }, {
     "id" : "97",
     "type" : "owl:Class"
@@ -226,25 +229,25 @@
     "id" : "240",
     "type" : "owl:intersectionOf"
   }, {
-    "id" : "346",
+    "id" : "347",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "96",
     "type" : "owl:Class"
   }, {
-    "id" : "347",
-    "type" : "rdfs:Datatype"
-  }, {
-    "id" : "344",
-    "type" : "owl:Thing"
-  }, {
     "id" : "348",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "350",
+    "id" : "345",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "349",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "351",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "352",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "1",
@@ -256,7 +259,7 @@
     "id" : "220",
     "type" : "owl:intersectionOf"
   }, {
-    "id" : "353",
+    "id" : "354",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "318",
@@ -271,7 +274,7 @@
     "id" : "213",
     "type" : "owl:Class"
   }, {
-    "id" : "363",
+    "id" : "316",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "48",
@@ -280,10 +283,10 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "195",
+    "id" : "127",
     "type" : "owl:Class"
   }, {
-    "id" : "127",
+    "id" : "195",
     "type" : "owl:Class"
   }, {
     "id" : "173",
@@ -316,7 +319,7 @@
     "id" : "41",
     "type" : "owl:Thing"
   }, {
-    "id" : "333",
+    "id" : "330",
     "type" : "owl:Class"
   }, {
     "id" : "140",
@@ -337,10 +340,10 @@
     "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "80",
+    "id" : "109",
     "type" : "owl:Class"
   }, {
-    "id" : "109",
+    "id" : "80",
     "type" : "owl:Class"
   }, {
     "id" : "129",
@@ -358,7 +361,7 @@
     "id" : "155",
     "type" : "owl:Class"
   }, {
-    "id" : "316",
+    "id" : "327",
     "type" : "owl:Class"
   }, {
     "id" : "165",
@@ -412,14 +415,14 @@
     "id" : "77",
     "type" : "owl:Class"
   }, {
-    "id" : "238",
-    "type" : "owl:Class"
+    "id" : "319",
+    "type" : "owl:intersectionOf"
   }, {
     "id" : "119",
     "type" : "owl:Class"
   }, {
-    "id" : "319",
-    "type" : "owl:intersectionOf"
+    "id" : "238",
+    "type" : "owl:Class"
   }, {
     "id" : "242",
     "type" : "owl:Class"
@@ -507,9 +510,6 @@
   }, {
     "id" : "74",
     "type" : "owl:Class"
-  }, {
-    "id" : "414",
-    "type" : "rdfs:Datatype"
   }, {
     "id" : "115",
     "type" : "owl:Class"
@@ -1045,6 +1045,13 @@
     "id" : "99",
     "superClasses" : [ "97" ]
   }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "277",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/City",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "instances" : 0,
@@ -1237,17 +1244,6 @@
     "id" : "117",
     "superClasses" : [ "150" ]
   }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/Gorgonzola",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Gorgonzola",
-      "undefined" : "Gorgonzola"
-    },
-    "attributes" : [ "external" ],
-    "id" : "157",
-    "superClasses" : [ "91" ]
-  }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/BeansPizza",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "instances" : 0,
@@ -1259,6 +1255,17 @@
     "attributes" : [ "external", "intersection" ],
     "id" : "57",
     "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Gorgonzola",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Gorgonzola",
+      "undefined" : "Gorgonzola"
+    },
+    "attributes" : [ "external" ],
+    "id" : "157",
+    "superClasses" : [ "91" ]
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/SeaFood",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -1312,7 +1319,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "346",
+    "id" : "347",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1329,35 +1336,35 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "347",
+    "id" : "348",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
-    "id" : "344",
+    "id" : "345",
     "label" : {
       "undefined" : "Thing"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "348",
+    "id" : "349",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "350",
+    "id" : "351",
     "label" : {
       "IRI-based" : "string"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#double",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "351",
+    "id" : "352",
     "label" : {
       "IRI-based" : "double"
     }
@@ -1399,7 +1406,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "353",
+    "id" : "354",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1452,7 +1459,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#string",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "363",
+    "id" : "316",
     "label" : {
       "IRI-based" : "string"
     }
@@ -1481,6 +1488,17 @@
     "id" : "2",
     "superClasses" : [ "155" ]
   }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Garlic",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Garlic",
+      "undefined" : "Garlic"
+    },
+    "attributes" : [ "external" ],
+    "id" : "127",
+    "superClasses" : [ "117" ]
+  }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/BarbecueSauce",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "instances" : 0,
@@ -1499,17 +1517,6 @@
     "attributes" : [ "external" ],
     "id" : "195",
     "superClasses" : [ "196", "150" ]
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/Garlic",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Garlic",
-      "undefined" : "Garlic"
-    },
-    "attributes" : [ "external" ],
-    "id" : "127",
-    "superClasses" : [ "117" ]
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/PizzaByStyle",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -1665,7 +1672,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "333"
+    "id" : "330"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#Thing",
     "baseIri" : "http://owl2vowl.de",
@@ -1755,17 +1762,6 @@
     "id" : "22",
     "superClasses" : [ "10" ]
   }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/Carrot",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Carrot",
-      "undefined" : "Carrot"
-    },
-    "attributes" : [ "external" ],
-    "id" : "80",
-    "superClasses" : [ "74" ]
-  }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/PizzaNutella",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "instances" : 0,
@@ -1776,6 +1772,17 @@
     "attributes" : [ "external" ],
     "id" : "109",
     "superClasses" : [ "110" ]
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/Carrot",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Carrot",
+      "undefined" : "Carrot"
+    },
+    "attributes" : [ "external" ],
+    "id" : "80",
+    "superClasses" : [ "74" ]
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/Mushroom",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -1849,7 +1856,7 @@
       }
     } ],
     "attributes" : [ "external" ],
-    "id" : "316"
+    "id" : "327"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/Cheddar",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -2051,16 +2058,16 @@
     "id" : "77",
     "superClasses" : [ "74" ]
   }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/Mortadella",
+    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaErnesto",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "Mortadella",
-      "undefined" : "Mortadella"
+      "IRI-based" : "PizzaErnesto"
     },
-    "attributes" : [ "external" ],
-    "id" : "238",
-    "superClasses" : [ "39" ]
+    "intersection" : [ "87" ],
+    "attributes" : [ "external", "intersection" ],
+    "id" : "319",
+    "superClasses" : [ "172" ]
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/Pumpkin",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -2073,16 +2080,16 @@
     "id" : "119",
     "superClasses" : [ "116" ]
   }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/PizzaErnesto",
+    "iri" : "https://w3id.org/city-kgs/restaurants/Mortadella",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "instances" : 0,
     "label" : {
-      "IRI-based" : "PizzaErnesto"
+      "IRI-based" : "Mortadella",
+      "undefined" : "Mortadella"
     },
-    "intersection" : [ "87" ],
-    "attributes" : [ "external", "intersection" ],
-    "id" : "319",
-    "superClasses" : [ "172" ]
+    "attributes" : [ "external" ],
+    "id" : "238",
+    "superClasses" : [ "39" ]
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/Chorizo",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -2465,13 +2472,6 @@
     "attributes" : [ "external" ],
     "id" : "74",
     "superClasses" : [ "117" ]
-  }, {
-    "iri" : "http://www.w3.org/2001/XMLSchema#string",
-    "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "414",
-    "label" : {
-      "IRI-based" : "string"
-    }
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/PlumTomato",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -3026,11 +3026,8 @@
     "id" : "276",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "277",
-    "type" : "owl:disjointWith"
-  }, {
     "id" : "278",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "279",
     "type" : "owl:disjointWith"
@@ -3042,12 +3039,12 @@
     "type" : "owl:disjointWith"
   }, {
     "id" : "282",
-    "type" : "owl:disjointWith"
-  }, {
-    "id" : "283",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "284",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "285",
     "type" : "owl:objectProperty"
   }, {
     "id" : "286",
@@ -3137,17 +3134,14 @@
     "id" : "324",
     "type" : "owl:allValuesFrom"
   }, {
+    "id" : "326",
+    "type" : "owl:someValuesFrom"
+  }, {
     "id" : "329",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "330",
+    "id" : "331",
     "type" : "owl:allValuesFrom"
-  }, {
-    "id" : "332",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "334",
-    "type" : "owl:someValuesFrom"
   }, {
     "id" : "335",
     "type" : "owl:someValuesFrom"
@@ -3159,16 +3153,16 @@
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "338",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "339",
     "type" : "owl:disjointWith"
   }, {
     "id" : "340",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "341",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "342",
     "type" : "owl:disjointWith"
@@ -3176,26 +3170,26 @@
     "id" : "343",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "327",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "345",
+    "id" : "344",
     "type" : "owl:disjointWith"
   }, {
-    "id" : "349",
+    "id" : "334",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "346",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "350",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "352",
-    "type" : "owl:someValuesFrom"
-  }, {
-    "id" : "354",
+    "id" : "353",
     "type" : "owl:someValuesFrom"
   }, {
     "id" : "355",
-    "type" : "owl:disjointWith"
+    "type" : "owl:someValuesFrom"
   }, {
     "id" : "356",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "357",
     "type" : "owl:someValuesFrom"
@@ -3215,6 +3209,9 @@
     "id" : "362",
     "type" : "owl:someValuesFrom"
   }, {
+    "id" : "363",
+    "type" : "owl:someValuesFrom"
+  }, {
     "id" : "364",
     "type" : "owl:someValuesFrom"
   }, {
@@ -3224,7 +3221,7 @@
     "id" : "366",
     "type" : "owl:someValuesFrom"
   }, {
-    "id" : "331",
+    "id" : "325",
     "type" : "owl:objectProperty"
   }, {
     "id" : "367",
@@ -3275,10 +3272,10 @@
     "id" : "380",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "325",
+    "id" : "332",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "326",
+    "id" : "333",
     "type" : "owl:objectProperty"
   }, {
     "id" : "381",
@@ -3332,7 +3329,7 @@
     "id" : "397",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "285",
+    "id" : "283",
     "type" : "owl:objectProperty"
   }, {
     "id" : "398",
@@ -3381,10 +3378,13 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "413",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "414",
+    "type" : "owl:disjointWith"
   }, {
     "id" : "415",
-    "type" : "owl:someValuesFrom"
+    "type" : "owl:disjointWith"
   }, {
     "id" : "416",
     "type" : "owl:disjointWith"
@@ -3410,77 +3410,77 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "range" : "5",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
     "range" : "2",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "6"
   }, {
     "range" : "10",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "8"
   }, {
     "range" : "2",
     "domain" : "12",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "11"
   }, {
     "range" : "10",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "13"
   }, {
     "range" : "2",
     "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "19"
   }, {
     "range" : "10",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "21"
   }, {
     "range" : "2",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "23"
   }, {
     "range" : "27",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "25"
   }, {
     "range" : "2",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   }, {
     "range" : "27",
     "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "30"
   }, {
     "range" : "2",
     "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "32"
   }, {
     "range" : "27",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "34"
   }, {
     "range" : "2",
     "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "36"
   }, {
     "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
@@ -3496,222 +3496,222 @@
   }, {
     "range" : "46",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "44"
   }, {
     "range" : "2",
     "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "47"
   }, {
     "range" : "46",
     "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "49"
   }, {
     "range" : "2",
     "domain" : "15",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
     "range" : "5",
     "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
     "range" : "48",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "54"
   }, {
     "range" : "58",
     "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "56"
   }, {
     "range" : "48",
     "domain" : "60",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "59"
   }, {
     "range" : "58",
     "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "61"
   }, {
     "range" : "48",
     "domain" : "64",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "63"
   }, {
     "range" : "58",
     "domain" : "66",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "65"
   }, {
     "range" : "48",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "67"
   }, {
     "range" : "58",
     "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "69"
   }, {
     "range" : "15",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "71"
   }, {
     "range" : "74",
     "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "72"
   }, {
     "range" : "15",
     "domain" : "17",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "75"
   }, {
     "range" : "74",
     "domain" : "77",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "76"
   }, {
     "range" : "15",
     "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "78"
   }, {
     "range" : "74",
     "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "79"
   }, {
     "range" : "2",
     "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "81"
   }, {
     "range" : "46",
     "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "83"
   }, {
     "range" : "2",
     "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "85"
   }, {
     "range" : "58",
     "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "88"
   }, {
     "range" : "58",
     "domain" : "94",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
     "range" : "97",
     "domain" : "96",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "95"
   }, {
     "range" : "97",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "98"
   }, {
     "range" : "97",
     "domain" : "101",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
     "range" : "97",
     "domain" : "103",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "102"
   }, {
     "range" : "97",
     "domain" : "105",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "104"
   }, {
     "range" : "97",
     "domain" : "107",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "106"
   }, {
     "range" : "110",
     "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "108"
   }, {
     "range" : "113",
     "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "111"
   }, {
     "range" : "113",
     "domain" : "115",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "114"
   }, {
     "range" : "117",
     "domain" : "121",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "120"
   }, {
     "range" : "117",
     "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "122"
   }, {
     "range" : "117",
     "domain" : "124",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "123"
   }, {
     "range" : "117",
     "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "125"
   }, {
     "range" : "117",
     "domain" : "127",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "126"
   }, {
     "range" : "117",
     "domain" : "129",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "128"
   }, {
     "range" : "117",
     "domain" : "116",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "130"
   }, {
     "range" : "117",
     "domain" : "132",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "131"
   }, {
     "range" : "117",
     "domain" : "134",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "133"
   }, {
     "range" : "117",
     "domain" : "136",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "135"
   }, {
     "range" : "117",
     "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "137"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/containsCity",
@@ -3727,292 +3727,292 @@
   }, {
     "range" : "91",
     "domain" : "157",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "156"
   }, {
     "range" : "91",
     "domain" : "159",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "158"
   }, {
     "range" : "91",
     "domain" : "90",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "160"
   }, {
     "range" : "163",
     "domain" : "162",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "161"
   }, {
     "range" : "91",
     "domain" : "165",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "175"
   }, {
     "range" : "91",
     "domain" : "166",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "176"
   }, {
     "range" : "91",
     "domain" : "167",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "177"
   }, {
     "range" : "91",
     "domain" : "168",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "178"
   }, {
     "range" : "91",
     "domain" : "169",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "179"
   }, {
     "range" : "91",
     "domain" : "170",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "181"
   }, {
     "range" : "155",
     "domain" : "154",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "182"
   }, {
     "range" : "155",
     "domain" : "141",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "183"
   }, {
     "range" : "155",
     "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "184"
   }, {
     "range" : "155",
     "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "185"
   }, {
     "range" : "155",
     "domain" : "188",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "187"
   }, {
     "range" : "196",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "194"
   }, {
     "range" : "196",
     "domain" : "198",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "197"
   }, {
     "range" : "196",
     "domain" : "200",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "199"
   }, {
     "range" : "196",
     "domain" : "202",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "201"
   }, {
     "range" : "198",
     "domain" : "204",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "203"
   }, {
     "range" : "132",
     "domain" : "143",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "205"
   }, {
     "range" : "132",
     "domain" : "144",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "206"
   }, {
     "range" : "132",
     "domain" : "145",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "207"
   }, {
     "range" : "146",
     "domain" : "147",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "208"
   }, {
     "range" : "146",
     "domain" : "148",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "209"
   }, {
     "range" : "26",
     "domain" : "151",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "210"
   }, {
     "range" : "213",
     "domain" : "212",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "211"
   }, {
     "range" : "173",
     "domain" : "215",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "214"
   }, {
     "range" : "116",
     "domain" : "118",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "216"
   }, {
     "range" : "116",
     "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "217"
   }, {
     "range" : "132",
     "domain" : "142",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "218"
   }, {
     "range" : "173",
     "domain" : "220",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "219"
   }, {
     "range" : "39",
     "domain" : "222",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "221"
   }, {
     "range" : "173",
     "domain" : "224",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "223"
   }, {
     "range" : "39",
     "domain" : "226",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "225"
   }, {
     "range" : "173",
     "domain" : "163",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "227"
   }, {
     "range" : "39",
     "domain" : "38",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "228"
   }, {
     "range" : "173",
     "domain" : "110",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "229"
   }, {
     "range" : "39",
     "domain" : "231",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "230"
   }, {
     "range" : "173",
     "domain" : "233",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "232"
   }, {
     "range" : "39",
     "domain" : "235",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "234"
   }, {
     "range" : "173",
     "domain" : "191",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "236"
   }, {
     "range" : "39",
     "domain" : "238",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "237"
   }, {
     "range" : "173",
     "domain" : "240",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "239"
   }, {
     "range" : "39",
     "domain" : "242",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "241"
   }, {
     "range" : "2",
     "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "243"
   }, {
     "range" : "39",
     "domain" : "245",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "244"
   }, {
     "range" : "173",
     "domain" : "247",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "246"
   }, {
     "range" : "39",
     "domain" : "249",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "248"
   }, {
     "range" : "173",
     "domain" : "251",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "250"
   }, {
     "range" : "39",
     "domain" : "253",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "252"
   }, {
     "range" : "149",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "254"
   }, {
     "range" : "117",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "258"
   }, {
     "range" : "260",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "259"
   }, {
     "range" : "97",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "261"
   }, {
     "range" : "149",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "262"
   }, {
     "range" : "198",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "263"
   }, {
     "range" : "193",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "264"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/containsAdress",
@@ -4028,22 +4028,22 @@
   }, {
     "range" : "260",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "267"
   }, {
     "range" : "198",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "268"
   }, {
     "range" : "39",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "269"
   }, {
     "range" : "117",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "270"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/servedIn",
@@ -4072,53 +4072,59 @@
   }, {
     "range" : "97",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "274"
   }, {
     "range" : "149",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "275"
   }, {
     "range" : "193",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "276"
   }, {
-    "range" : "154",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "277"
-  }, {
-    "range" : "154",
-    "domain" : "188",
-    "attributes" : [ "object", "anonymous" ],
+    "iri" : "https://w3id.org/city-kgs/restaurants/postCode",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "277",
+    "label" : {
+      "IRI-based" : "postCode"
+    },
+    "domain" : "186",
+    "attributes" : [ "external", "someValues", "datatype" ],
     "id" : "278"
   }, {
     "range" : "39",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "279"
   }, {
     "range" : "91",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "280"
   }, {
-    "range" : "2",
-    "domain" : "141",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "154",
+    "domain" : "188",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "281"
   }, {
-    "range" : "2",
-    "domain" : "188",
-    "attributes" : [ "object", "anonymous" ],
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCity",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "141",
+    "label" : {
+      "IRI-based" : "locatedInCity"
+    },
+    "superproperty" : [ "283" ],
+    "domain" : "186",
+    "attributes" : [ "object", "external", "functional", "someValues" ],
     "id" : "282"
   }, {
     "range" : "154",
-    "domain" : "141",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "283"
+    "domain" : "2",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCountry",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -4126,14 +4132,14 @@
     "label" : {
       "IRI-based" : "locatedInCountry"
     },
-    "superproperty" : [ "285" ],
+    "superproperty" : [ "283" ],
     "domain" : "92",
     "attributes" : [ "object", "external", "functional" ],
-    "id" : "284"
+    "id" : "285"
   }, {
     "range" : "117",
     "domain" : "260",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "286"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedInState",
@@ -4142,7 +4148,7 @@
     "label" : {
       "IRI-based" : "locatedInState"
     },
-    "superproperty" : [ "285" ],
+    "superproperty" : [ "283" ],
     "domain" : "141",
     "attributes" : [ "object", "external", "functional", "allValues" ],
     "id" : "287"
@@ -4153,154 +4159,110 @@
     "label" : {
       "IRI-based" : "locatedInCountry"
     },
-    "superproperty" : [ "285" ],
+    "superproperty" : [ "283" ],
     "domain" : "141",
     "attributes" : [ "object", "external", "functional", "someValues" ],
     "id" : "288"
   }, {
     "range" : "117",
     "domain" : "193",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "292"
   }, {
     "range" : "260",
     "domain" : "193",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "293"
   }, {
     "range" : "117",
     "domain" : "198",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "294"
   }, {
     "range" : "260",
     "domain" : "198",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "295"
   }, {
     "range" : "260",
     "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "296"
   }, {
     "range" : "198",
     "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "297"
   }, {
     "range" : "198",
     "domain" : "193",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "298"
   }, {
     "range" : "117",
     "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "299"
   }, {
     "range" : "193",
     "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "300"
   }, {
     "range" : "117",
     "domain" : "149",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "301"
   }, {
     "range" : "260",
     "domain" : "149",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "303"
   }, {
     "range" : "97",
     "domain" : "149",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "304"
   }, {
     "range" : "117",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "305"
   }, {
     "range" : "198",
     "domain" : "149",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "306"
   }, {
     "range" : "193",
     "domain" : "149",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "307"
   }, {
     "range" : "193",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "308"
   }, {
     "range" : "97",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "309"
   }, {
     "range" : "260",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "310"
   }, {
     "range" : "198",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "311"
   }, {
     "range" : "164",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "312"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
-    "inverse" : "314",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "50",
-    "label" : {
-      "IRI-based" : "hasIngredient"
-    },
-    "domain" : "213",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "313"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasValue",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "316",
-    "label" : {
-      "IRI-based" : "hasValue"
-    },
-    "domain" : "147",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "315"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/servedInRestaurant",
-    "inverse" : "273",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "2",
-    "label" : {
-      "IRI-based" : "servedInRestaurant"
-    },
-    "superproperty" : [ "271" ],
-    "domain" : "147",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "317"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
-    "inverse" : "314",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "198",
-    "label" : {
-      "IRI-based" : "hasIngredient"
-    },
-    "domain" : "213",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "320"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
@@ -4311,16 +4273,61 @@
     },
     "domain" : "213",
     "attributes" : [ "object", "external", "someValues" ],
+    "id" : "313"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/itemName",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "316",
+    "label" : {
+      "IRI-based" : "itemName"
+    },
+    "domain" : "147",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "315"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "148",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "147",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "317"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "213",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "320"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "198",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "213",
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "323"
   }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/locatedIn",
+    "iri" : "https://w3id.org/city-kgs/restaurants/containsLocation",
+    "inverse" : "283",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "range" : "155",
     "label" : {
-      "IRI-based" : "locatedIn"
+      "IRI-based" : "containsLocation"
     },
+    "superproperty" : [ "40" ],
     "domain" : "155",
-    "subproperty" : [ "284", "325", "326", "327" ],
+    "subproperty" : [ "325", "139", "265" ],
     "attributes" : [ "object", "external", "transitive", "allValues" ],
     "id" : "324"
   }, {
@@ -4330,43 +4337,30 @@
     "label" : {
       "IRI-based" : "amount"
     },
-    "domain" : "316",
-    "attributes" : [ "datatype", "external", "someValues" ],
-    "id" : "329"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/containsLocation",
-    "inverse" : "285",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "155",
-    "label" : {
-      "IRI-based" : "containsLocation"
-    },
-    "superproperty" : [ "40" ],
-    "domain" : "155",
-    "subproperty" : [ "331", "139", "265" ],
-    "attributes" : [ "object", "external", "transitive", "allValues" ],
-    "id" : "330"
+    "domain" : "327",
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "326"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/amountCurrency",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "333",
+    "range" : "330",
     "label" : {
       "IRI-based" : "amountCurrency"
     },
-    "domain" : "316",
+    "domain" : "327",
     "attributes" : [ "object", "external", "someValues" ],
-    "id" : "332"
+    "id" : "329"
   }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
-    "inverse" : "314",
+    "iri" : "https://w3id.org/city-kgs/restaurants/locatedIn",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "198",
+    "range" : "155",
     "label" : {
-      "IRI-based" : "hasIngredient"
+      "IRI-based" : "locatedIn"
     },
-    "domain" : "171",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "334"
+    "domain" : "155",
+    "subproperty" : [ "285", "332", "333", "334" ],
+    "attributes" : [ "object", "external", "transitive", "allValues" ],
+    "id" : "331"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
@@ -4382,7 +4376,7 @@
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "231",
+    "range" : "91",
     "label" : {
       "IRI-based" : "hasIngredient"
     },
@@ -4393,7 +4387,7 @@
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "91",
+    "range" : "198",
     "label" : {
       "IRI-based" : "hasIngredient"
     },
@@ -4401,40 +4395,51 @@
     "attributes" : [ "object", "external", "someValues" ],
     "id" : "337"
   }, {
-    "range" : "155",
-    "domain" : "316",
-    "attributes" : [ "object", "anonymous" ],
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "231",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "171",
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "338"
   }, {
     "range" : "155",
-    "domain" : "146",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "327",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "339"
+  }, {
+    "range" : "155",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "340"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasValue",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "316",
+    "range" : "327",
     "label" : {
       "IRI-based" : "hasValue"
     },
     "domain" : "146",
     "attributes" : [ "object", "external", "someValues" ],
-    "id" : "340"
-  }, {
-    "range" : "316",
-    "domain" : "333",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "341"
   }, {
-    "range" : "146",
-    "domain" : "333",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "327",
+    "domain" : "330",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "342"
   }, {
-    "range" : "316",
-    "domain" : "146",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "146",
+    "domain" : "330",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "343"
+  }, {
+    "range" : "327",
+    "domain" : "146",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "344"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedInState",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -4442,15 +4447,15 @@
     "label" : {
       "IRI-based" : "locatedInState"
     },
-    "superproperty" : [ "285" ],
-    "domain" : "344",
+    "superproperty" : [ "283" ],
+    "domain" : "345",
     "attributes" : [ "object", "external", "functional" ],
-    "id" : "327"
+    "id" : "334"
   }, {
     "range" : "155",
-    "domain" : "333",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "345"
+    "domain" : "330",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "346"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCountry",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -4458,20 +4463,20 @@
     "label" : {
       "IRI-based" : "locatedInCountry"
     },
-    "superproperty" : [ "285" ],
+    "superproperty" : [ "283" ],
     "domain" : "154",
     "attributes" : [ "object", "external", "functional", "someValues" ],
-    "id" : "349"
+    "id" : "350"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/restaurantName",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "353",
+    "range" : "354",
     "label" : {
       "IRI-based" : "restaurantName"
     },
     "domain" : "2",
-    "attributes" : [ "datatype", "external", "someValues" ],
-    "id" : "352"
+    "attributes" : [ "external", "someValues", "datatype" ],
+    "id" : "353"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedInAddress",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -4479,59 +4484,15 @@
     "label" : {
       "IRI-based" : "locatedInAddress"
     },
-    "superproperty" : [ "285" ],
+    "superproperty" : [ "283" ],
     "domain" : "2",
     "attributes" : [ "object", "external", "functional", "someValues" ],
-    "id" : "354"
+    "id" : "355"
   }, {
     "range" : "164",
     "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "355"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
-    "inverse" : "314",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "249",
-    "label" : {
-      "IRI-based" : "hasIngredient"
-    },
-    "domain" : "289",
-    "attributes" : [ "object", "external", "someValues" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "356"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
-    "inverse" : "314",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "256",
-    "label" : {
-      "IRI-based" : "hasIngredient"
-    },
-    "domain" : "289",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "357"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/servesMenuItem",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "147",
-    "label" : {
-      "IRI-based" : "servesMenuItem"
-    },
-    "superproperty" : [ "43" ],
-    "domain" : "2",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "358"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
-    "inverse" : "314",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "121",
-    "label" : {
-      "IRI-based" : "hasIngredient"
-    },
-    "domain" : "289",
-    "attributes" : [ "object", "external", "someValues" ],
-    "id" : "359"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
@@ -4542,7 +4503,51 @@
     },
     "domain" : "289",
     "attributes" : [ "object", "external", "someValues" ],
+    "id" : "357"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "256",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "289",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "358"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/servesMenuItem",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "147",
+    "label" : {
+      "IRI-based" : "servesMenuItem"
+    },
+    "superproperty" : [ "43" ],
+    "domain" : "2",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "359"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "249",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "289",
+    "attributes" : [ "object", "external", "someValues" ],
     "id" : "360"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
+    "inverse" : "314",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "121",
+    "label" : {
+      "IRI-based" : "hasIngredient"
+    },
+    "domain" : "289",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "361"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
@@ -4553,28 +4558,7 @@
     },
     "domain" : "318",
     "attributes" : [ "object", "external", "someValues" ],
-    "id" : "361"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
-    "inverse" : "314",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "127",
-    "label" : {
-      "IRI-based" : "hasIngredient"
-    },
-    "domain" : "318",
-    "attributes" : [ "object", "external", "someValues" ],
     "id" : "362"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/itemName",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "363",
-    "label" : {
-      "IRI-based" : "itemName"
-    },
-    "domain" : "147",
-    "attributes" : [ "datatype", "external", "someValues" ],
-    "id" : "364"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
@@ -4585,15 +4569,37 @@
     },
     "domain" : "318",
     "attributes" : [ "object", "external", "someValues" ],
-    "id" : "365"
+    "id" : "363"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/hasValue",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "327",
+    "label" : {
+      "IRI-based" : "hasValue"
+    },
+    "domain" : "147",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "364"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
     "inverse" : "314",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "148",
+    "range" : "127",
     "label" : {
       "IRI-based" : "hasIngredient"
     },
+    "domain" : "318",
+    "attributes" : [ "object", "external", "someValues" ],
+    "id" : "365"
+  }, {
+    "iri" : "https://w3id.org/city-kgs/restaurants/servedInRestaurant",
+    "inverse" : "273",
+    "baseIri" : "https://w3id.org/city-kgs/restaurants",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "servedInRestaurant"
+    },
+    "superproperty" : [ "271" ],
     "domain" : "147",
     "attributes" : [ "object", "external", "someValues" ],
     "id" : "366"
@@ -4605,18 +4611,18 @@
       "IRI-based" : "containsState"
     },
     "superproperty" : [ "42" ],
-    "domain" : "344",
+    "domain" : "345",
     "attributes" : [ "object", "external" ],
-    "id" : "331"
+    "id" : "325"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/itemName",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "347",
+    "range" : "348",
     "label" : {
       "IRI-based" : "itemName"
     },
     "domain" : "41",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "367"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/isIngredientOf",
@@ -4631,26 +4637,26 @@
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/amountCurrency",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "333",
+    "range" : "330",
     "label" : {
       "IRI-based" : "amountCurrency"
     },
-    "domain" : "316",
+    "domain" : "327",
     "attributes" : [ "object", "external" ],
     "id" : "368"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/name",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "346",
+    "range" : "347",
     "label" : {
       "IRI-based" : "name"
     },
     "domain" : "41",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "369"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/containsLocation",
-    "inverse" : "285",
+    "inverse" : "283",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
     "range" : "155",
     "label" : {
@@ -4658,63 +4664,63 @@
     },
     "superproperty" : [ "40" ],
     "domain" : "155",
-    "subproperty" : [ "331", "139", "265" ],
+    "subproperty" : [ "325", "139", "265" ],
     "attributes" : [ "object", "external", "transitive" ],
     "id" : "42"
   }, {
     "range" : "172",
     "domain" : "289",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "370"
   }, {
     "range" : "172",
     "domain" : "171",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "371"
   }, {
     "range" : "172",
     "domain" : "318",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "372"
   }, {
     "range" : "172",
     "domain" : "319",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "373"
   }, {
     "range" : "117",
     "domain" : "153",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "374"
   }, {
     "range" : "117",
     "domain" : "321",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "375"
   }, {
     "range" : "117",
     "domain" : "113",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "376"
   }, {
     "range" : "117",
     "domain" : "74",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "377"
   }, {
     "range" : "117",
     "domain" : "291",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "378"
   }, {
     "range" : "117",
     "domain" : "322",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "379"
   }, {
     "range" : "172",
     "domain" : "213",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "380"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedInAddress",
@@ -4723,10 +4729,10 @@
     "label" : {
       "IRI-based" : "locatedInAddress"
     },
-    "superproperty" : [ "285" ],
+    "superproperty" : [ "283" ],
     "domain" : "266",
     "attributes" : [ "object", "external", "functional" ],
-    "id" : "325"
+    "id" : "332"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCity",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
@@ -4734,59 +4740,59 @@
     "label" : {
       "IRI-based" : "locatedInCity"
     },
-    "superproperty" : [ "285" ],
+    "superproperty" : [ "283" ],
     "domain" : "140",
     "attributes" : [ "object", "external", "functional" ],
-    "id" : "326"
+    "id" : "333"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/firstLineAddress",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "350",
+    "range" : "351",
     "label" : {
       "IRI-based" : "firstLineAddress"
     },
     "domain" : "186",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "381"
   }, {
     "range" : "148",
     "domain" : "196",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "382"
   }, {
     "range" : "148",
     "domain" : "164",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "383"
   }, {
     "range" : "148",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "384"
   }, {
     "range" : "148",
     "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "385"
   }, {
     "range" : "86",
     "domain" : "190",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "386"
   }, {
     "range" : "86",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "387"
   }, {
     "range" : "86",
     "domain" : "257",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "388"
   }, {
     "range" : "86",
     "domain" : "180",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "389"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/hasIngredient",
@@ -4802,37 +4808,37 @@
   }, {
     "range" : "20",
     "domain" : "302",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "391"
   }, {
     "range" : "150",
     "domain" : "193",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "392"
   }, {
     "range" : "291",
     "domain" : "290",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "393"
   }, {
     "range" : "249",
     "domain" : "256",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "394"
   }, {
     "range" : "164",
     "domain" : "91",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "395"
   }, {
     "range" : "164",
     "domain" : "150",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "396"
   }, {
     "range" : "150",
     "domain" : "195",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "397"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/locatedIn",
@@ -4842,134 +4848,128 @@
       "IRI-based" : "locatedIn"
     },
     "domain" : "155",
-    "subproperty" : [ "284", "325", "326", "327" ],
+    "subproperty" : [ "285", "332", "333", "334" ],
     "attributes" : [ "object", "external", "transitive" ],
-    "id" : "285"
+    "id" : "283"
   }, {
     "range" : "150",
     "domain" : "260",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "398"
   }, {
     "range" : "150",
     "domain" : "198",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "399"
   }, {
     "range" : "150",
     "domain" : "149",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "400"
   }, {
     "range" : "150",
     "domain" : "117",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "401"
   }, {
     "range" : "147",
     "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "402"
   }, {
     "range" : "153",
     "domain" : "152",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "403"
   }, {
     "range" : "153",
     "domain" : "255",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "404"
   }, {
     "range" : "163",
     "domain" : "171",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "405"
   }, {
     "range" : "163",
     "domain" : "174",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "406"
   }, {
     "range" : "191",
     "domain" : "192",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "407"
   }, {
     "range" : "190",
     "domain" : "189",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "408"
   }, {
     "range" : "87",
     "domain" : "172",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "409"
   }, {
     "range" : "87",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "410"
   }, {
     "range" : "87",
     "domain" : "173",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "411"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/postCode",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "348",
+    "range" : "349",
     "label" : {
       "IRI-based" : "postCode"
     },
     "domain" : "186",
-    "attributes" : [ "datatype", "external" ],
+    "attributes" : [ "external", "datatype" ],
     "id" : "412"
   }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/postCode",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "414",
-    "label" : {
-      "IRI-based" : "postCode"
-    },
+    "range" : "141",
     "domain" : "186",
-    "attributes" : [ "datatype", "external", "someValues" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "413"
-  }, {
-    "iri" : "https://w3id.org/city-kgs/restaurants/locatedInCity",
-    "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "141",
-    "label" : {
-      "IRI-based" : "locatedInCity"
-    },
-    "superproperty" : [ "285" ],
-    "domain" : "186",
-    "attributes" : [ "object", "external", "functional", "someValues" ],
-    "id" : "415"
-  }, {
-    "range" : "141",
-    "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "416"
   }, {
     "range" : "188",
     "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "417"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "414"
   }, {
     "range" : "2",
     "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "418"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "415"
   }, {
     "range" : "154",
     "domain" : "186",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "419"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "416"
   }, {
     "range" : "188",
     "domain" : "141",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "417"
+  }, {
+    "range" : "2",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "418"
+  }, {
+    "range" : "154",
+    "domain" : "141",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "419"
+  }, {
+    "range" : "2",
+    "domain" : "188",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "420"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/firstLineAddress",
@@ -4979,17 +4979,17 @@
       "IRI-based" : "firstLineAddress"
     },
     "domain" : "186",
-    "attributes" : [ "datatype", "external", "someValues" ],
+    "attributes" : [ "external", "someValues", "datatype" ],
     "id" : "421"
   }, {
     "iri" : "https://w3id.org/city-kgs/restaurants/amount",
     "baseIri" : "https://w3id.org/city-kgs/restaurants",
-    "range" : "351",
+    "range" : "352",
     "label" : {
       "IRI-based" : "amount"
     },
-    "domain" : "316",
-    "attributes" : [ "datatype", "external" ],
+    "domain" : "327",
+    "attributes" : [ "external", "datatype" ],
     "id" : "423"
   } ]
 }
