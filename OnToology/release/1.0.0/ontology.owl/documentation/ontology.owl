@@ -12,13 +12,13 @@
      xmlns:restaurants="https://w3id.org/city-kgs/restaurants/">
     <owl:Ontology rdf:about="https://w3id.org/city-kgs/restaurants">
         <owl:versionIRI rdf:resource="https://w3id.org/city-kgs/restaurants/1.0.0"/>
-        <dc:abstract>Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell</dc:abstract>
-        <dc:creator>Ernesto Jimenez Ruiz</dc:creator>
-        <dc:description>Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell.</dc:description>
-        <dc:title>Pizza-Restaurants ontology</dc:title>
-        <terms:creator>Ernesto Jimenez Ruiz</terms:creator>
+        <dc:abstract xml:lang="en">Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell</dc:abstract>
+        <dc:creator xml:lang="en">Ernesto Jimenez Ruiz</dc:creator>
+        <dc:description xml:lang="en">Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell.</dc:description>
+        <dc:title xml:lang="en">Pizza-Restaurants ontology</dc:title>
+        <terms:creator xml:lang="en">Ernesto Jimenez Ruiz</terms:creator>
         <terms:license rdf:resource="https://www.apache.org/licenses/LICENSE-2.0.html"/>
-        <rdfs:comment>Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell</rdfs:comment>
+        <rdfs:comment xml:lang="en">Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell</rdfs:comment>
         <owl:versionInfo>Version 02/03/2024</owl:versionInfo>
     </owl:Ontology>
     

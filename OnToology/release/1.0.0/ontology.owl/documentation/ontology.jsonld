@@ -851,24 +851,30 @@
   "@id" : "https://w3id.org/city-kgs/restaurants",
   "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
   "http://purl.org/dc/elements/1.1/abstract" : [ {
+    "@language" : "en",
     "@value" : "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell"
   } ],
   "http://purl.org/dc/elements/1.1/creator" : [ {
+    "@language" : "en",
     "@value" : "Ernesto Jimenez Ruiz"
   } ],
   "http://purl.org/dc/elements/1.1/description" : [ {
+    "@language" : "en",
     "@value" : "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell."
   } ],
   "http://purl.org/dc/elements/1.1/title" : [ {
+    "@language" : "en",
     "@value" : "Pizza-Restaurants ontology"
   } ],
   "http://purl.org/dc/terms/creator" : [ {
+    "@language" : "en",
     "@value" : "Ernesto Jimenez Ruiz"
   } ],
   "http://purl.org/dc/terms/license" : [ {
     "@id" : "https://www.apache.org/licenses/LICENSE-2.0.html"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
     "@value" : "Ontology covering the domain of the Kaggle dataset Pizza Restaurants and the Pizza They Sell: https://www.kaggle.com/datafiniti/pizza-restaurants-and-the-pizza-they-sell"
   } ],
   "http://www.w3.org/2002/07/owl#versionIRI" : [ {
